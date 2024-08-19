@@ -1,4 +1,5 @@
 
+import csv
 from app.models.model_annotation import ModelAnnotation
 
 
@@ -34,7 +35,7 @@ class DictionaryLookupModel(ModelAnnotation):
                     entities[row[0].lower()] = row[1]  # Word: Label
         return entities
 
-    def predict(self, text, patient_id):
+    def predict(self, text):
         doc = self.nlp(text)
         annotations = []
         for ent in doc.ents:
@@ -60,4 +61,4 @@ class DictionaryLookupModel(ModelAnnotation):
                 "controlled_vocabulary_source": "original"
             }
             annotations.append(annotation)
-        return self.serialize(text, patient_id, annotations)
+        return self.serialize(text, annotations)

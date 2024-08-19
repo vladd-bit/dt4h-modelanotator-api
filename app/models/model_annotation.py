@@ -4,18 +4,18 @@ import json
 
 class ModelAnnotation(ABC):
     @abstractmethod
-    def predict(self, text, patient_id):
+    def predict(self, text):
         pass
 
-    def serialize(self, text, patient_id, annotations):
+    def serialize(self, text, annotations):
         """This function implements the Common Data Model v2"""
         output = {
             "nlp_output": {
                 "record_metadata": {
                     "clinical_site_id": "example_site",
-                    "patient_id": patient_id,
+                    "patient_id": "patient_id",
                     "admission_id": "",
-                    "record_id": patient_id,
+                    "record_id": "patient_id",
                     "record_type": "progress report",
                     "record_format": "txt",
                     "record_creation_date": datetime.now().isoformat(),

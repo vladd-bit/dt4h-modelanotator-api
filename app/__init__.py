@@ -1,12 +1,12 @@
 from flask import Flask, request, jsonify
 from flasgger import Swagger
-from model_annotation import DictionaryLookupModel
+from app.models.dictionary_baseline import DictionaryLookupModel
 
 app = Flask(__name__)
 swagger = Swagger(app)
 
 # Initialize the model
-model = DictionaryLookupModel("path/to/your/english_entities.csv")
+model = DictionaryLookupModel("./english_entities.csv")
 
 @app.route('/process_text', methods=['POST'])
 def process_text():
@@ -21,26 +21,21 @@ def process_text():
           id: text_input
           required:
             - text
-            - patient_id
           properties:
             text:
               type: string
               description: The text to process
-            patient_id:
-              type: string
-              description: The patient ID
     responses:
       200:
         description: Processed text with NER annotations
     """
     data = request.json
     text = data.get('text')
-    patient_id = data.get('patient_id')
     
-    if not text or not patient_id:
-        return jsonify({"error": "Both 'text' and 'patient_id' are required"}), 400
+    if not text:
+        return jsonify({"error": "'text' is required"}), 400
 
-    result = model.predict(text, patient_id)
+    result = model.predict(text)
     return jsonify(result)
 
 @app.route('/process_bulk', methods=['POST'])
@@ -59,14 +54,10 @@ def process_bulk():
             type: object
             required:
               - text
-              - patient_id
             properties:
               text:
                 type: string
                 description: The text to process
-              patient_id:
-                type: string
-                description: The patient ID
     responses:
       200:
         description: Processed texts with NER annotations
@@ -79,12 +70,11 @@ def process_bulk():
     results = []
     for item in data:
         text = item.get('text')
-        patient_id = item.get('patient_id')
         
-        if not text or not patient_id:
-            return jsonify({"error": "Each item must contain 'text' and 'patient_id'"}), 400
+        if not text:
+            return jsonify({"error": "Each item must contain 'text'"}), 400
         
-        result = model.predict(text, patient_id)
+        result = model.predict(text)
         results.append(result)
 
     return jsonify(results)

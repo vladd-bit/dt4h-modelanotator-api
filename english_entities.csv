@@ -1,0 +1,683 @@
+Sex female,demographic
+Sex male,demographic
+YOB,demographic
+Height,demographic
+Weight,demographic
+BMI,demographic
+Origin,demographic
+Admission date,demographic
+NYHA class,signs and symptoms
+Chest pain,signs and symptoms
+breathness,signs and symptoms
+orthopnoea,signs and symptoms
+paroxysmal nocturnal dyspnoea,signs and symptoms
+reduced excercise tolerance,signs and symptoms
+fatigue,signs and symptoms
+ankle swelling,signs and symptoms
+nocturnal cough,signs and symptoms
+loss of appetite,signs and symptoms
+depression,signs and symptoms
+palpitation,signs and symptoms
+dizziness,signs and symptoms
+syncope,signs and symptoms
+elevated jugular venous pressure,signs and symptoms
+hepatojugular reflux,signs and symptoms
+third heart sound,signs and symptoms
+weight gain,signs and symptoms
+weight loss ,signs and symptoms
+cardiac murmur,signs and symptoms
+"peripheral edema (ankle, sacral, scrotal)",signs and symptoms
+pulmonary crepitations,signs and symptoms
+pleural effusion,signs and symptoms
+tachycardia,signs and symptoms
+irregular pulse,signs and symptoms
+tachypneoea,signs and symptoms
+cheyne-stokes respiration,signs and symptoms
+hepatomegaly,signs and symptoms
+ascites,signs and symptoms
+oliguria,signs and symptoms
+BPsyst,clinical measurements
+Bpdia,clinical measurements
+Bpmean,clinical measurements
+" Venous oxygen saturation 
+ 
+",clinical measurements
+Arterial oxygen saturation,clinical measurements
+Rhythm,ECG variables
+ECG_STEMI,ECG variables
+ECG_nSTEMI,ECG variables
+ECG_QRS,ECG variables
+ECG_QRSaxis,ECG variables
+HR,ECG variables
+LVEF,Heart Ultrasound
+BSA,Heart Ultrasound
+LVEDV,Heart Ultrasound
+LVESV,Heart Ultrasound
+RVEF,Heart Ultrasound
+HRecho,Heart Ultrasound
+RhythmEcho,Heart Ultrasound
+A wave,Heart Ultrasound
+FAC,Heart Ultrasound
+Hb,Lab
+Ferritin,Lab
+TFS,Lab
+NTproBNP,Lab
+BNP,Lab
+CRPhs,Lab
+CRPnonhs,Lab
+TropIhs,Lab
+TropInhs,Lab
+TropThs,Lab
+TropTnhs,Lab
+TriGly,Lab
+CholTot,Lab
+HDL,Lab
+LDL,Lab
+Potassium,Lab
+Sodium,Lab
+GGT,Lab
+CreatUS,Lab
+AlbuminBS,Lab
+AlbuminUS,Lab
+eGFR,Lab
+BUN,Lab
+ACR,Lab
+HbA1c,Lab
+Angina pectoris,CV diseases
+Atrial fibrillation,CV diseases
+Cardiomyopathies,CV diseases
+Heart failure,CV diseases
+Hypertension,CV diseases
+Ischemic Heart disorder,CV diseases
+Myocardial infarction,CV diseases
+Peripheral artery disorder,CV diseases
+Stroke,CV diseases
+Transient Ischemic Attack,CV diseases
+Valvular disorder,CV diseases
+AIDS or HIV diagnosis,Non-CV comorbidities
+HIV positive,Non-CV comorbidities
+Chronic Obstructive Pulmonic disorder,Non-CV comorbidities
+Diabetes Mellitus,Non-CV comorbidities
+Dementia,Non-CV comorbidities
+Depression,Non-CV comorbidities
+Dialysis,Non-CV comorbidities
+Hyperthyroidism,Non-CV comorbidities
+Liver disorder,Non-CV comorbidities
+Malignant Cancer,Non-CV comorbidities
+Obstructive Sleep Apnea,Non-CV comorbidities
+Rheumatic disorder,Non-CV comorbidities
+Renal disorder chronic,Non-CV comorbidities
+Smoker,Non-CV comorbidities
+Ex-smoker ,Non-CV comorbidities
+Smokes tobacco daily ,Non-CV comorbidities
+Occasional tobacco smoker ,Non-CV comorbidities
+Ex-smoker ,Non-CV comorbidities
+Never smoked tobacco,Non-CV comorbidities
+Smoker,Non-CV comorbidities
+Tobacco smoking consumption unknown ,Non-CV comorbidities
+RAS-inhibitors,Medication
+ACE-inhibitors,Medication
+Angiotensin receptor blocker,Medication
+Angiotensin receptor/neprilysin inhibitor (ARNI),Medication
+Mineralcorticoid Receptor Antagonist (MRA),Medication
+Diuretics,Medication
+Loop diuretics,Medication
+Calcium Channel Blockers,Medication
+Vasodilators used in heart dis.,Medication
+Platelet inhibitor,Medication
+Anticoagulants,Medication
+Statins,Medication
+Digitalis glycosides,Medication
+Betablockers,Medication
+Class 1 and 3 antiarrhytmic drugs,Medication
+SGLT-2 Inhibitor,Medication
+Revascularized CABG (Coronary artery bypass grafting),CV Procedures
+PCI (Percutaneous coronary intervention),CV Procedures
+Cardiovascular implant,CV Procedures
+Vascular implant ,CV Procedures
+Transplant heart ,CV Procedures
+Hospital admission,Outcomes
+Death,Outcomes
+RAS-INHIBITORS,Medication
+Substance with angiotensin II receptor antagonist mechanism of action ,Medication
+Fimasartan potassium trihydrate,Medication
+Fimasartan,Medication
+Azilsartan medoxomil potassium,Medication
+Irbesartan hydrochloride,Medication
+Azilsartan medoxomil,Medication
+Azilsartan,Medication
+Olmesartan medoxomil,Medication
+Olmesartan,Medication
+Eprosartan,Medication
+Telmisartan,Medication
+Candesartan cilexetil,Medication
+Irbesartan,Medication
+Valsartan,Medication
+Losartan,Medication
+Candesartan,Medication
+Eprosartan mesilate,Medication
+Losartan potassium,Medication
+"Substance with angiotensin-converting 
+enzyme inhibitor mechanism of action
+",Medication
+Lisinopril dihydrate,Medication
+Lisinopril anhydrous,Medication
+Cilazapril anhydrous,Medication
+Perindopril erbumine monohydrate,Medication
+Enalapril sodium,Medication
+Perindopril tosylate,Medication
+Cilazapril monohydrate,Medication
+Spirapril,Medication
+Zofenoprilat arginine,Medication
+Zofenoprilat,Medication
+Zofenopril calcium,Medication
+Zofenopril,Medication
+Delapril hydrochloride,Medication
+Delapril,Medication
+Perindopril arginine,Medication
+Imidapril,Medication
+Cilazapril,Medication
+Imidapril hydrochloride,Medication
+Enalapril maleate,Medication
+Captopril,Medication
+Quinapril hydrochloride,Medication
+Quinapril,Medication
+Lisinopril,Medication
+Ramipril,Medication
+Trandolapril,Medication
+Moexipril,Medication
+Perindopril,Medication
+Enalapril,Medication
+Benazepril,Medication
+Fosinopril,Medication
+Perindopril erbumine,Medication
+Benazepril hydrochloride,Medication
+Fosinopril sodium,Medication
+Moexipril hydrochloride,Medication
+Enalaprilat,Medication
+"Substance with renin inhibitor mechanism 
+of action ",Medication
+Aliskiren,Medication
+Aliskiren fumarate,Medication
+ACE-INHIBITORS,Medication
+Lisinopril dihydrate,Medication
+Lisinopril anhydrous,Medication
+Cilazapril anhydrous,Medication
+Perindopril erbumine monohydrate,Medication
+Enalapril sodium,Medication
+Perindopril tosylate,Medication
+Cilazapril monohydrate,Medication
+Spirapril,Medication
+Zofenoprilat arginine,Medication
+Zofenoprilat,Medication
+Zofenopril calcium,Medication
+Zofenopril,Medication
+Delapril hydrochloride,Medication
+Delapril,Medication
+Perindopril arginine,Medication
+Imidapril,Medication
+Cilazapril,Medication
+Imidapril hydrochloride,Medication
+Enalapril maleate,Medication
+Captopril,Medication
+Quinapril hydrochloride,Medication
+Quinapril,Medication
+Lisinopril,Medication
+Ramipril,Medication
+Trandolapril,Medication
+Moexipril,Medication
+Perindopril,Medication
+Enalapril,Medication
+Benazepril,Medication
+Fosinopril,Medication
+Perindopril erbumine,Medication
+Benazepril hydrochloride,Medication
+Fosinopril sodium,Medication
+Moexipril hydrochloride,Medication
+Enalaprilat,Medication
+ANGIOTENSIN RECEPTOR BLOCKER,Medication
+Fimasartan potassium trihydrate,Medication
+Fimasartan,Medication
+Azilsartan medoxomil potassium,Medication
+Irbesartan hydrochloride,Medication
+Azilsartan medoxomil,Medication
+Azilsartan,Medication
+Olmesartan medoxomil,Medication
+Olmesartan,Medication
+Eprosartan,Medication
+Telmisartan,Medication
+Candesartan cilexetil,Medication
+Irbesartan,Medication
+Valsartan,Medication
+Losartan,Medication
+Candesartan,Medication
+Eprosartan mesilate,Medication
+Losartan potassium,Medication
+ANGIOTENSIN RECEPTOR/NEPRILYSIN INHIBITOR (ARNI),Medication
+MINERALCORTICOID RECEPTOR ANTAGONIST (MRA),Medication
+Finerenone,Medication
+Potassium canrenoate,Medication
+Eplerenone,Medication
+Spironolactone,Medication
+Canrenone,Medication
+DIURETICS,Medication
+acetazolamide,Medication
+aminometradine,Medication
+amisometradine,Medication
+chlorazanil,Medication
+cicletanine,Medication
+cicletanine hydrochloride,Medication
+conivaptan,Medication
+conivaptan hydrochloride,Medication
+flumethiazide,Medication
+pamabrom,Medication
+tolvaptan,Medication
+Mercurial diuretic,Medication
+Mersalyl sodium,Medication
+Mersalyl,Medication
+Mercaptomerin,Medication
+Meralluride,Medication
+Chlormerodrin,Medication
+Merethoxylline procaine,Medication
+Mercumatilin,Medication
+Mercaptomerin sodium,Medication
+Osmotic diuretic,Medication
+Mannitol,Medication
+Urea,Medication
+Isosorbide,Medication
+Potassium sparing diuretic,Medication
+Amiloride hydrochloride anhydrous,Medication
+Finerenone,Medication
+Potassium canrenoate,Medication
+Amiloride hydrochloride dihydrate,Medication
+Eplerenone,Medication
+Amiloride hydrochloride,Medication
+Amiloride,Medication
+Spironolactone,Medication
+Triamterene,Medication
+Aldosterone receptor antagonist,Medication
+Canrenone,Medication
+Purine-derivative diuretic,Medication
+Choline theophyllinate,Medication
+Theobromine,Medication
+Saluretic agent,Medication
+Butizide,Medication
+Bumetanide,Medication
+Furosemide,Medication
+Chlortalidone,Medication
+Ethacrynic acid,Medication
+Chlorothiazide,Medication
+Torasemide,Medication
+Canrenone,Medication
+Ethacrynate sodium,Medication
+Benzthiazide,Medication
+Tienilic acid,Medication
+Quinethazone,Medication
+Cyclothiazide,Medication
+Trichlormethiazide,Medication
+Chlorothiazide sodium,Medication
+Sulfonamide diuretic,Medication
+Indapamide hemihydrate,Medication
+Mefruside,Medication
+Clopamide,Medication
+Xipamide,Medication
+Bumetanide,Medication
+Furosemide,Medication
+Indapamide,Medication
+Chlortalidone,Medication
+Metolazone,Medication
+Ethoxyzolamide,Medication
+Methazolamide,Medication
+Quinethazone,Medication
+Thiazide diuretic,Medication
+Butizide,Medication
+Althiazide,Medication
+Mefruside,Medication
+Cyclopenthiazide,Medication
+Hydroflumethiazide,Medication
+Hydrochlorothiazide,Medication
+Bendroflumethiazide,Medication
+Polythiazide,Medication
+Methyclothiazide,Medication
+Chlorothiazide,Medication
+Benzthiazide,Medication
+Cyclothiazide,Medication
+Trichlormethiazide,Medication
+Chlorothiazide sodium,Medication
+Uricosuric agent,Medication
+Lesinurad,Medication
+Benzbromarone,Medication
+Apazone,Medication
+Probenecid,Medication
+Sulfinpyrazone,Medication
+LOOP DIURETIC,Medication
+Piretanide,Medication
+Bumetanide,Medication
+Furosemide,Medication
+Ethacrynic acid,Medication
+Torasemide,Medication
+Ethacrynate sodium,Medication
+Tienilic acid,Medication
+CALCIUM CHANNEL BLOCKER,Medication
+Perhexiline maleate,Medication
+Benidipine,Medication
+Benidipine hydrochloride,Medication
+Terodiline hydrochloride,Medication
+Gabapentin enacarbil,Medication
+Pinaverium bromide,Medication
+Perhexiline,Medication
+Mibefradil,Medication
+Terodiline,Medication
+Prenylamine,Medication
+Gabapentin,Medication
+Benzothiazepine ,Medication
+Diltiazem maleate,Medication
+Diltiazem,Medication
+Diltiazem hydrochloride,Medication
+Diarylaminopropylamine ,Medication
+Bepridil,Medication
+Bepridil hydrochloride,Medication
+Phenylalkylamine,Medication
+Gallopamil hydrochloride,Medication
+Gallopamil,Medication
+Verapamil,Medication
+Norverapamil,Medication
+Verapamil hydrochloride,Medication
+Piperazine derivative with calcium channel blocker mechanism of action,Medication
+Lidoflazine,Medication
+Substance with dihydropyridine derivative structure and calcium channel blocker mechanism of action ,Medication
+Lercanidipine hydrochloride hemihydrate,Medication
+Levamlodipine besylate,Medication
+Levamlodipine,Medication
+Amlodipine mesylate,Medication
+Cilnidipine,Medication
+Amlodipine benzoate,Medication
+Manidipine hydrochloride,Medication
+Manidipine,Medication
+Nilvadipine,Medication
+Barnidipine,Medication
+Nitrendipine,Medication
+Clevidipine,Medication
+Amlodipine maleate,Medication
+Lercanidipine,Medication
+Lercanidipine hydrochloride,Medication
+Lacidipine,Medication
+Nimodipine,Medication
+Nifedipine,Medication
+Amlodipine,Medication
+Felodipine,Medication
+Isradipine,Medication
+Nisoldipine,Medication
+Amlodipine besilate,Medication
+Nicardipine,Medication
+Nicardipine hydrochloride,Medication
+Nitrate-based vasodilating agent ,Medication
+"1,2-dinitroglycerin",Medication
+Nitroglycerin,Medication
+Isosorbide dinitrate,Medication
+Amyl nitrite,Medication
+Isosorbide mononitrate,Medication
+Pentaerythritol tetranitrate,Medication
+Erythrityl tetranitrate,Medication
+Amyl nitrate,Medication
+Inositol hexanitrate,Medication
+flosequinan,Medication
+hexobendine,Medication
+heptaminol,Medication
+nicorandil,Medication
+vericiguat,Medication
+SUBSTANCE WITH PLATELET AGGREGATION INHIBITOR MECHANISM OF ACTION ,Medication
+Substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action ,Medication
+Tirofiban hydrochloride,Medication
+Tirofiban hydrochloride anhydrous,Medication
+Tirofiban hydrochloride monohydrate,Medication
+Eptifibatide,Medication
+Tirofiban,Medication
+Abciximab,Medication
+Substance with P2Y12 G-protein-coupled platelet receptor antagonist mechanism of action ,Medication
+Prasugrel hydrobromide,Medication
+Cangrelor tetrasodium,Medication
+Prasugrel besylate,Medication
+Prasugrel hydrochloride,Medication
+Clopidogrel besylate,Medication
+Clopidogrel hydrochloride,Medication
+Cangrelor,Medication
+Ticagrelor,Medication
+Prasugrel,Medication
+Clopidogrel bisulfate,Medication
+Ticlopidine hydrochloride,Medication
+Clopidogrel,Medication
+Ticlopidine,Medication
+substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action ,Medication
+substance with P2Y12 G-protein-coupled platelet receptor antagonist mechanism of action,Medication
+caplacizumab,Medication
+aspirin DL-lysine ,Medication
+selexipag,Medication
+indobufen,Medication
+vorapaxar,Medication
+triflusal,Medication
+treprostinil,Medication
+buffered aspirin,Medication
+aloxiprin,Medication
+tirofiban hydrochloride monohydrate,Medication
+iloprost,Medication
+aspirin,Medication
+dipiridamol,Medication
+treprostinil sodium,Medication
+milrinone,Medication
+epoprostenol,Medication
+cilostazol,Medication
+calcium carbaspirin ,Medication
+epoprostenol sodium,Medication
+milrinone lactate,Medication
+resveratrol,Medication
+aluminium aspirin,Medication
+ANTICOAGULANTS,Medication
+resveratrol,Medication
+Direct acting anticoagulant ,Medication
+Argatroban anhydrous,Medication
+Heparin ammonium,Medication
+Heparin lithium,Medication
+Edoxaban tosilate,Medication
+Porcine heparin sodium,Medication
+Betrixaban,Medication
+Argatroban monohydrate,Medication
+Edoxaban,Medication
+Fondaparinux,Medication
+Dabigatran etexilate mesylate,Medication
+Dabigatran etexilate,Medication
+Nadroparin,Medication
+Dabigatran,Medication
+Sulodexide,Medication
+Nadroparin calcium,Medication
+Apixaban,Medication
+Rivaroxaban,Medication
+Ximelagatran,Medication
+Hirudin,Medication
+Direct thrombin inhibitor,Medication
+Tinzaparin,Medication
+Bovine heparin sodium,Medication
+Porcine heparin,Medication
+Bemiparin sodium,Medication
+Bemiparin,Medication
+Desirudin,Medication
+Reviparin,Medication
+Certoparin,Medication
+Tinzaparin sodium,Medication
+Certoparin sodium,Medication
+Reviparin sodium,Medication
+Lepirudin,Medication
+Danaparoid sodium,Medication
+Coagulation factor Xa inhibitor,Medication
+Fondaparinux sodium,Medication
+Ardeparin,Medication
+Low molecular weight heparin,Medication
+Heparin,Medication
+Heparinoid,Medication
+Pentosan polysulfate,Medication
+Danaparoid,Medication
+Dalteparin,Medication
+Enoxaparin,Medication
+Bivalirudin,Medication
+Argatroban,Medication
+Pentosan polysulfate sodium,Medication
+Ardeparin sodium,Medication
+Dalteparin sodium,Medication
+Enoxaparin sodium,Medication
+Heparin sodium,Medication
+Ancrod,Medication
+Heparin calcium,Medication
+Glucurolactone,Medication
+Indirect acting anticoagulant ,Medication
+Fluindione,Medication
+Human protein C,Medication
+Coumafuryl,Medication
+Difenacoum,Medication
+Long-acting coumarin derivative,Medication
+Difethialone,Medication
+Acenocoumarol,Medication
+Phenindione,Medication
+Coumarin anticoagulant,Medication
+Warfarin,Medication
+Indanedione,Medication
+Brodifacoum,Medication
+Acarboxy-protein C,Medication
+Bromadiolone,Medication
+Cyclocumarol,Medication
+Bromindione,Medication
+Dicumarol,Medication
+Warfarin sodium,Medication
+Phenprocoumon,Medication
+Ethyl biscoumacetate,Medication
+Potassium warfarin,Medication
+Anisindione,Medication
+4-hydroxycoumarin,Medication
+Chlorophacinone,Medication
+Protein C,Medication
+Diphenadione,Medication
+STATINS,Medication
+Atorvastatin calcium anhydrous,Medication
+Rosuvastatin zinc,Medication
+Atorvastatin calcium trihydrate,Medication
+Pitavastatin calcium,Medication
+Rosuvastatin,Medication
+Pitavastatin,Medication
+Fluvastatin sodium,Medication
+Rosuvastatin calcium,Medication
+Fluvastatin,Medication
+Simvastatin,Medication
+Pravastatin,Medication
+Atorvastatin,Medication
+Cerivastatin,Medication
+Atorvastatin calcium,Medication
+Cerivastatin sodium,Medication
+Pravastatin sodium,Medication
+Lovastatin,Medication
+DIGITALIS GLYCOSIDES,Medication
+Medigoxin,Medication
+Digitalis,Medication
+Digoxin,Medication
+Lanatoside C,Medication
+Digitoxin,Medication
+Ouabain,Medication
+Aglycone,Medication
+Deslanoside,Medication
+Acetyldigitoxin,Medication
+BETABLOCKERS    ,Medication
+Tertatolol hydrochloride,Medication
+Tertatolol,Medication
+Carvedilol phosphate,Medication
+Levobunolol,Medication
+Oxprenolol hydrochloride,Medication
+Oxprenolol,Medication
+Nadolol,Medication
+Practolol,Medication
+Levobunolol hydrochloride,Medication
+Pindolol,Medication
+Carvedilol,Medication
+Carteolol hydrochloride,Medication
+Carteolol,Medication
+Penbutolol sulfate,Medication
+Metipranolol,Medication
+Sotalol,Medication
+Timolol,Medication
+Propranolol,Medication
+Labetalol,Medication
+Beta-1 adrenergic receptor antagonist,Medication
+Penbutolol,Medication
+Metipranolol hydrochloride,Medication
+Sotalol hydrochloride,Medication
+Alprenolol,Medication
+Timolol maleate,Medication
+Propranolol hydrochloride,Medication
+Labetalol hydrochloride,Medication
+Beta-2 adrenergic receptor antagonist,Medication
+Substance with beta-1 adrenergic receptor antagonist mechanism of action ,Medication
+(S)-metoprolol tartrate,Medication
+(S)-metoprolol succinate,Medication
+(S)-metoprolol,Medication
+Nebivolol hydrochloride,Medication
+Metoprolol succinate,Medication
+Levobetaxolol,Medication
+Betaxolol,Medication
+Celiprolol,Medication
+Celiprolol hydrochloride,Medication
+Nebivolol,Medication
+Atenolol,Medication
+Betaxolol hydrochloride,Medication
+Bisoprolol fumarate,Medication
+Bisoprolol,Medication
+Esmolol,Medication
+Metoprolol,Medication
+Acebutolol,Medication
+Metoprolol tartrate,Medication
+Esmolol hydrochloride,Medication
+Acebutolol hydrochloride,Medication
+ANTIARRYTHMICS,Medication
+Substance with sodium channel blocker mechanism of action ,Medication
+Phenytoin calcium,Medication
+Lidocaine hydrochloride anhydrous,Medication
+Amiloride hydrochloride anhydrous,Medication
+Lidocaine hydrochloride monohydrate,Medication
+Lidocaine hydrocarbonate,Medication
+Free phenytoin,Medication
+Ranolazine,Medication
+Amiloride hydrochloride dihydrate,Medication
+Lamotrigine,Medication
+Amiloride hydrochloride,Medication
+Amiloride,Medication
+Lidocaine,Medication
+Phenytoin sodium,Medication
+Phenytoin,Medication
+Triamterene,Medication
+Oxcarbazepine,Medication
+Topiramate,Medication
+Moracizine,Medication
+Mexiletine,Medication
+Disopyramide,Medication
+Encainide,Medication
+Tocainide,Medication
+Mexiletine hydrochloride,Medication
+Moracizine hydrochloride,Medication
+Encainide hydrochloride,Medication
+Lidocaine hydrochloride,Medication
+Disopyramide phosphate,Medication
+Tocainide hydrochloride,Medication
+Substance with potassium channel blocker mechanism of action,Medication
+Amifampridine,Medication
+Dofetilide,Medication
+Dalfampridine,Medication
+IVABRADINE,Medication
+"SUBSTANCE WITH SODIUM GLUCOSE COTRANSPORTER SUBTYPE 2 INHIBITOR MECHANISM OF ACTION
+",Medication
+Dapagliflozin propanediol anhydrous,Medication
+Canagliflozin anhydrous,Medication
+Remogliflozin etabonate,Medication
+Ertugliflozin pidolate,Medication
+Dapagliflozin propanediol monohydrate,Medication
+Ertugliflozin,Medication
+Canagliflozin hemihydrate,Medication
+Empagliflozin,Medication
+Canagliflozin,Medication
+Dapagliflozin propanediol,Medication
+Dapagliflozin,Medication
