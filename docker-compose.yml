@@ -4,7 +4,7 @@ services:
     build: .
     user: root
     environment:
-      DICTIONARY_FILE: 
+      DICTIONARY_FILE:
       LANGUAGE: en
     ports:
       - 8000:8000
@@ -16,4 +16,4 @@ services:
 
 networks:
   default:
-    name: cognet
+    name: cogstack-net
