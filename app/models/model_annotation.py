@@ -4,7 +4,7 @@ import json
 
 class ModelAnnotation(ABC):
     @abstractmethod
-    def predict(self, text):
+    def predict(self, text, app):
         pass
 
     def serialize(self, text, annotations):

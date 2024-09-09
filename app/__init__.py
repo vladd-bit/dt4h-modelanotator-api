@@ -30,12 +30,20 @@ def process_text():
         description: Processed text with NER annotations
     """
     data = request.json
+    if not isinstance(data, dict):
+        return jsonify({"error": "Input must be a dictionary with 'content' key"}), 400
+
+    if not "content" in data.keys():
+        return jsonify({"error": "Input must be a dictionary with 'content' key"}), 400
+
+    data = data["content"]
+
     text = data.get('text')
-    
+
     if not text:
         return jsonify({"error": "'text' is required"}), 400
 
-    result = model.predict(text)
+    result = model.predict(text, app)
     return jsonify(result)
 
 @app.route('/process_bulk', methods=['POST'])
@@ -63,18 +71,26 @@ def process_bulk():
         description: Processed texts with NER annotations
     """
     data = request.json
-    
+
+    if not isinstance(data, dict):
+        return jsonify({"error": "Input must be a dictionary with 'content' key"}), 400
+
+    if not "content" in data.keys():
+        return jsonify({"error": "Input must be a dictionary with 'content' key"}), 400
+
+    data = data["content"]
+
     if not isinstance(data, list):
         return jsonify({"error": "Input must be a list of objects"}), 400
 
     results = []
     for item in data:
         text = item.get('text')
-        
+
         if not text:
             return jsonify({"error": "Each item must contain 'text'"}), 400
-        
-        result = model.predict(text)
+
+        result = model.predict(text, app)
         results.append(result)
 
     return jsonify(results)

@@ -2,7 +2,6 @@
 import csv
 from app.models.model_annotation import ModelAnnotation
 
-
 class DictionaryLookupModel(ModelAnnotation):
     def __init__(self, csv_path):
         import csv
@@ -21,7 +20,18 @@ class DictionaryLookupModel(ModelAnnotation):
                     start = token.i
                     end = token.i + 1
                     matches.append(Span(doc, start, end, label=self.entities[token.lower_]))
-            doc.ents = list(doc.ents) + matches
+
+            new_ents = []
+            for span in matches:
+                overlap = False
+                for ent in doc.ents:
+                    if span.start < ent.end and span.end > ent.start:
+                        overlap = True
+                        break
+                if not overlap:
+                    new_ents.append(span)
+
+            doc.ents = list(doc.ents) + new_ents
             return doc
 
         self.nlp.add_pipe("dictionary_entity_recognizer", last=True)
@@ -35,7 +45,7 @@ class DictionaryLookupModel(ModelAnnotation):
                     entities[row[0].lower()] = row[1]  # Word: Label
         return entities
 
-    def predict(self, text):
+    def predict(self, text, app):
         doc = self.nlp(text)
         annotations = []
         for ent in doc.ents:
