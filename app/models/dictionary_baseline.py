@@ -1,4 +1,3 @@
-
 import csv
 from app.models.model_annotation import ModelAnnotation
 
@@ -19,7 +18,8 @@ class DictionaryLookupModel(ModelAnnotation):
                 if token.lower_ in self.entities:
                     start = token.i
                     end = token.i + 1
-                    matches.append(Span(doc, start, end, label=self.entities[token.lower_]))
+                    entity_info = self.entities[token.lower_]
+                    matches.append(Span(doc, start, end, label=entity_info["label"]))
 
             new_ents = []
             for span in matches:
@@ -41,34 +41,46 @@ class DictionaryLookupModel(ModelAnnotation):
         with open(file_path, 'r', encoding='utf-8') as csvfile:
             reader = csv.reader(csvfile)
             for row in reader:
-                if len(row) >= 2:
-                    entities[row[0].lower()] = row[1]  # Word: Label
+                if len(row) >= 5:  # Ensure there are enough columns
+                    entities[row[0].lower()] = {
+                        "label": row[1].lower(),
+                        "dt4h_concept_identifier": row[2],
+                        "nel_component_type": row[3],
+                        "nel_component_version": row[4]
+                    }
         return entities
 
     def predict(self, text, app):
         doc = self.nlp(text)
         annotations = []
+
         for ent in doc.ents:
-            annotation = {
-                "concept_class": ent.label_,
-                "start_offset": ent.start_char,
-                "end_offset": ent.end_char,
-                "concept_mention_string": ent.text,
-                "concept_confidence": 0.95,  # Example value
-                "ner_component_type": "dictionary lookup",
-                "ner_component_version": self.nlp.meta["version"],
-                "negation": "no",  # Simplified
-                "negation_confidence": 1.0,
-                "qualifier_negation": "",
-                "qualifier_temporal": "",
-                "dt4h_concept_identifier": "",
-                "nel_component_type": "",
-                "nel_component_version": "",
-                "controlled_vocabulary_namespace": "none",
-                "controlled_vocabulary_version": "",
-                "controlled_vocabulary_concept_identifier": "",
-                "controlled_vocabulary_concept_official_term": "",
-                "controlled_vocabulary_source": "original"
-            }
-            annotations.append(annotation)
+            entity_text = ent.text.lower()
+            if entity_text in self.entities:
+                entity_info = self.entities[entity_text]
+                annotation = {
+                    "concept_class": ent.label_,
+                    "start_offset": ent.start_char,
+                    "end_offset": ent.end_char,
+                    "concept_mention_string": ent.text,
+                    "concept_confidence": 0.95,  # Example value
+                    "ner_component_type": "dictionary lookup",
+                    "ner_component_version": self.nlp.meta["version"],
+                    "negation": "no",  # Simplified
+                    "negation_confidence": 1.0,
+                    "qualifier_negation": "",
+                    "qualifier_temporal": "",
+                    "dt4h_concept_identifier": entity_info["dt4h_concept_identifier"],
+                    "nel_component_type": entity_info["nel_component_type"],
+                    "nel_component_version": entity_info["nel_component_version"],
+                    "controlled_vocabulary_namespace": "none",
+                    "controlled_vocabulary_version": "",
+                    "controlled_vocabulary_concept_identifier": "",
+                    "controlled_vocabulary_concept_official_term": "",
+                    "controlled_vocabulary_source": "original"
+                }
+                annotations.append(annotation)
+            else:
+                print(f"Entity '{entity_text}' not found in dictionary.")
+
         return self.serialize(text, annotations)

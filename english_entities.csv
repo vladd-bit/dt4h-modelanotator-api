@@ -1,683 +1,584 @@
-Sex female,demographic
-Sex male,demographic
-YOB,demographic
-Height,demographic
-Weight,demographic
-BMI,demographic
-Origin,demographic
-Admission date,demographic
-NYHA class,signs and symptoms
-Chest pain,signs and symptoms
-breathness,signs and symptoms
-orthopnoea,signs and symptoms
-paroxysmal nocturnal dyspnoea,signs and symptoms
-reduced excercise tolerance,signs and symptoms
-fatigue,signs and symptoms
-ankle swelling,signs and symptoms
-nocturnal cough,signs and symptoms
-loss of appetite,signs and symptoms
-depression,signs and symptoms
-palpitation,signs and symptoms
-dizziness,signs and symptoms
-syncope,signs and symptoms
-elevated jugular venous pressure,signs and symptoms
-hepatojugular reflux,signs and symptoms
-third heart sound,signs and symptoms
-weight gain,signs and symptoms
-weight loss ,signs and symptoms
-cardiac murmur,signs and symptoms
-"peripheral edema (ankle, sacral, scrotal)",signs and symptoms
-pulmonary crepitations,signs and symptoms
-pleural effusion,signs and symptoms
-tachycardia,signs and symptoms
-irregular pulse,signs and symptoms
-tachypneoea,signs and symptoms
-cheyne-stokes respiration,signs and symptoms
-hepatomegaly,signs and symptoms
-ascites,signs and symptoms
-oliguria,signs and symptoms
-BPsyst,clinical measurements
-Bpdia,clinical measurements
-Bpmean,clinical measurements
-" Venous oxygen saturation 
- 
-",clinical measurements
-Arterial oxygen saturation,clinical measurements
-Rhythm,ECG variables
-ECG_STEMI,ECG variables
-ECG_nSTEMI,ECG variables
-ECG_QRS,ECG variables
-ECG_QRSaxis,ECG variables
-HR,ECG variables
-LVEF,Heart Ultrasound
-BSA,Heart Ultrasound
-LVEDV,Heart Ultrasound
-LVESV,Heart Ultrasound
-RVEF,Heart Ultrasound
-HRecho,Heart Ultrasound
-RhythmEcho,Heart Ultrasound
-A wave,Heart Ultrasound
-FAC,Heart Ultrasound
-Hb,Lab
-Ferritin,Lab
-TFS,Lab
-NTproBNP,Lab
-BNP,Lab
-CRPhs,Lab
-CRPnonhs,Lab
-TropIhs,Lab
-TropInhs,Lab
-TropThs,Lab
-TropTnhs,Lab
-TriGly,Lab
-CholTot,Lab
-HDL,Lab
-LDL,Lab
-Potassium,Lab
-Sodium,Lab
-GGT,Lab
-CreatUS,Lab
-AlbuminBS,Lab
-AlbuminUS,Lab
-eGFR,Lab
-BUN,Lab
-ACR,Lab
-HbA1c,Lab
-Angina pectoris,CV diseases
-Atrial fibrillation,CV diseases
-Cardiomyopathies,CV diseases
-Heart failure,CV diseases
-Hypertension,CV diseases
-Ischemic Heart disorder,CV diseases
-Myocardial infarction,CV diseases
-Peripheral artery disorder,CV diseases
-Stroke,CV diseases
-Transient Ischemic Attack,CV diseases
-Valvular disorder,CV diseases
-AIDS or HIV diagnosis,Non-CV comorbidities
-HIV positive,Non-CV comorbidities
-Chronic Obstructive Pulmonic disorder,Non-CV comorbidities
-Diabetes Mellitus,Non-CV comorbidities
-Dementia,Non-CV comorbidities
-Depression,Non-CV comorbidities
-Dialysis,Non-CV comorbidities
-Hyperthyroidism,Non-CV comorbidities
-Liver disorder,Non-CV comorbidities
-Malignant Cancer,Non-CV comorbidities
-Obstructive Sleep Apnea,Non-CV comorbidities
-Rheumatic disorder,Non-CV comorbidities
-Renal disorder chronic,Non-CV comorbidities
-Smoker,Non-CV comorbidities
-Ex-smoker ,Non-CV comorbidities
-Smokes tobacco daily ,Non-CV comorbidities
-Occasional tobacco smoker ,Non-CV comorbidities
-Ex-smoker ,Non-CV comorbidities
-Never smoked tobacco,Non-CV comorbidities
-Smoker,Non-CV comorbidities
-Tobacco smoking consumption unknown ,Non-CV comorbidities
-RAS-inhibitors,Medication
-ACE-inhibitors,Medication
-Angiotensin receptor blocker,Medication
-Angiotensin receptor/neprilysin inhibitor (ARNI),Medication
-Mineralcorticoid Receptor Antagonist (MRA),Medication
-Diuretics,Medication
-Loop diuretics,Medication
-Calcium Channel Blockers,Medication
-Vasodilators used in heart dis.,Medication
-Platelet inhibitor,Medication
-Anticoagulants,Medication
-Statins,Medication
-Digitalis glycosides,Medication
-Betablockers,Medication
-Class 1 and 3 antiarrhytmic drugs,Medication
-SGLT-2 Inhibitor,Medication
-Revascularized CABG (Coronary artery bypass grafting),CV Procedures
-PCI (Percutaneous coronary intervention),CV Procedures
-Cardiovascular implant,CV Procedures
-Vascular implant ,CV Procedures
-Transplant heart ,CV Procedures
-Hospital admission,Outcomes
-Death,Outcomes
-RAS-INHIBITORS,Medication
-Substance with angiotensin II receptor antagonist mechanism of action ,Medication
-Fimasartan potassium trihydrate,Medication
-Fimasartan,Medication
-Azilsartan medoxomil potassium,Medication
-Irbesartan hydrochloride,Medication
-Azilsartan medoxomil,Medication
-Azilsartan,Medication
-Olmesartan medoxomil,Medication
-Olmesartan,Medication
-Eprosartan,Medication
-Telmisartan,Medication
-Candesartan cilexetil,Medication
-Irbesartan,Medication
-Valsartan,Medication
-Losartan,Medication
-Candesartan,Medication
-Eprosartan mesilate,Medication
-Losartan potassium,Medication
-"Substance with angiotensin-converting 
-enzyme inhibitor mechanism of action
-",Medication
-Lisinopril dihydrate,Medication
-Lisinopril anhydrous,Medication
-Cilazapril anhydrous,Medication
-Perindopril erbumine monohydrate,Medication
-Enalapril sodium,Medication
-Perindopril tosylate,Medication
-Cilazapril monohydrate,Medication
-Spirapril,Medication
-Zofenoprilat arginine,Medication
-Zofenoprilat,Medication
-Zofenopril calcium,Medication
-Zofenopril,Medication
-Delapril hydrochloride,Medication
-Delapril,Medication
-Perindopril arginine,Medication
-Imidapril,Medication
-Cilazapril,Medication
-Imidapril hydrochloride,Medication
-Enalapril maleate,Medication
-Captopril,Medication
-Quinapril hydrochloride,Medication
-Quinapril,Medication
-Lisinopril,Medication
-Ramipril,Medication
-Trandolapril,Medication
-Moexipril,Medication
-Perindopril,Medication
-Enalapril,Medication
-Benazepril,Medication
-Fosinopril,Medication
-Perindopril erbumine,Medication
-Benazepril hydrochloride,Medication
-Fosinopril sodium,Medication
-Moexipril hydrochloride,Medication
-Enalaprilat,Medication
-"Substance with renin inhibitor mechanism 
-of action ",Medication
-Aliskiren,Medication
-Aliskiren fumarate,Medication
-ACE-INHIBITORS,Medication
-Lisinopril dihydrate,Medication
-Lisinopril anhydrous,Medication
-Cilazapril anhydrous,Medication
-Perindopril erbumine monohydrate,Medication
-Enalapril sodium,Medication
-Perindopril tosylate,Medication
-Cilazapril monohydrate,Medication
-Spirapril,Medication
-Zofenoprilat arginine,Medication
-Zofenoprilat,Medication
-Zofenopril calcium,Medication
-Zofenopril,Medication
-Delapril hydrochloride,Medication
-Delapril,Medication
-Perindopril arginine,Medication
-Imidapril,Medication
-Cilazapril,Medication
-Imidapril hydrochloride,Medication
-Enalapril maleate,Medication
-Captopril,Medication
-Quinapril hydrochloride,Medication
-Quinapril,Medication
-Lisinopril,Medication
-Ramipril,Medication
-Trandolapril,Medication
-Moexipril,Medication
-Perindopril,Medication
-Enalapril,Medication
-Benazepril,Medication
-Fosinopril,Medication
-Perindopril erbumine,Medication
-Benazepril hydrochloride,Medication
-Fosinopril sodium,Medication
-Moexipril hydrochloride,Medication
-Enalaprilat,Medication
-ANGIOTENSIN RECEPTOR BLOCKER,Medication
-Fimasartan potassium trihydrate,Medication
-Fimasartan,Medication
-Azilsartan medoxomil potassium,Medication
-Irbesartan hydrochloride,Medication
-Azilsartan medoxomil,Medication
-Azilsartan,Medication
-Olmesartan medoxomil,Medication
-Olmesartan,Medication
-Eprosartan,Medication
-Telmisartan,Medication
-Candesartan cilexetil,Medication
-Irbesartan,Medication
-Valsartan,Medication
-Losartan,Medication
-Candesartan,Medication
-Eprosartan mesilate,Medication
-Losartan potassium,Medication
-ANGIOTENSIN RECEPTOR/NEPRILYSIN INHIBITOR (ARNI),Medication
-MINERALCORTICOID RECEPTOR ANTAGONIST (MRA),Medication
-Finerenone,Medication
-Potassium canrenoate,Medication
-Eplerenone,Medication
-Spironolactone,Medication
-Canrenone,Medication
-DIURETICS,Medication
-acetazolamide,Medication
-aminometradine,Medication
-amisometradine,Medication
-chlorazanil,Medication
-cicletanine,Medication
-cicletanine hydrochloride,Medication
-conivaptan,Medication
-conivaptan hydrochloride,Medication
-flumethiazide,Medication
-pamabrom,Medication
-tolvaptan,Medication
-Mercurial diuretic,Medication
-Mersalyl sodium,Medication
-Mersalyl,Medication
-Mercaptomerin,Medication
-Meralluride,Medication
-Chlormerodrin,Medication
-Merethoxylline procaine,Medication
-Mercumatilin,Medication
-Mercaptomerin sodium,Medication
-Osmotic diuretic,Medication
-Mannitol,Medication
-Urea,Medication
-Isosorbide,Medication
-Potassium sparing diuretic,Medication
-Amiloride hydrochloride anhydrous,Medication
-Finerenone,Medication
-Potassium canrenoate,Medication
-Amiloride hydrochloride dihydrate,Medication
-Eplerenone,Medication
-Amiloride hydrochloride,Medication
-Amiloride,Medication
-Spironolactone,Medication
-Triamterene,Medication
-Aldosterone receptor antagonist,Medication
-Canrenone,Medication
-Purine-derivative diuretic,Medication
-Choline theophyllinate,Medication
-Theobromine,Medication
-Saluretic agent,Medication
-Butizide,Medication
-Bumetanide,Medication
-Furosemide,Medication
-Chlortalidone,Medication
-Ethacrynic acid,Medication
-Chlorothiazide,Medication
-Torasemide,Medication
-Canrenone,Medication
-Ethacrynate sodium,Medication
-Benzthiazide,Medication
-Tienilic acid,Medication
-Quinethazone,Medication
-Cyclothiazide,Medication
-Trichlormethiazide,Medication
-Chlorothiazide sodium,Medication
-Sulfonamide diuretic,Medication
-Indapamide hemihydrate,Medication
-Mefruside,Medication
-Clopamide,Medication
-Xipamide,Medication
-Bumetanide,Medication
-Furosemide,Medication
-Indapamide,Medication
-Chlortalidone,Medication
-Metolazone,Medication
-Ethoxyzolamide,Medication
-Methazolamide,Medication
-Quinethazone,Medication
-Thiazide diuretic,Medication
-Butizide,Medication
-Althiazide,Medication
-Mefruside,Medication
-Cyclopenthiazide,Medication
-Hydroflumethiazide,Medication
-Hydrochlorothiazide,Medication
-Bendroflumethiazide,Medication
-Polythiazide,Medication
-Methyclothiazide,Medication
-Chlorothiazide,Medication
-Benzthiazide,Medication
-Cyclothiazide,Medication
-Trichlormethiazide,Medication
-Chlorothiazide sodium,Medication
-Uricosuric agent,Medication
-Lesinurad,Medication
-Benzbromarone,Medication
-Apazone,Medication
-Probenecid,Medication
-Sulfinpyrazone,Medication
-LOOP DIURETIC,Medication
-Piretanide,Medication
-Bumetanide,Medication
-Furosemide,Medication
-Ethacrynic acid,Medication
-Torasemide,Medication
-Ethacrynate sodium,Medication
-Tienilic acid,Medication
-CALCIUM CHANNEL BLOCKER,Medication
-Perhexiline maleate,Medication
-Benidipine,Medication
-Benidipine hydrochloride,Medication
-Terodiline hydrochloride,Medication
-Gabapentin enacarbil,Medication
-Pinaverium bromide,Medication
-Perhexiline,Medication
-Mibefradil,Medication
-Terodiline,Medication
-Prenylamine,Medication
-Gabapentin,Medication
-Benzothiazepine ,Medication
-Diltiazem maleate,Medication
-Diltiazem,Medication
-Diltiazem hydrochloride,Medication
-Diarylaminopropylamine ,Medication
-Bepridil,Medication
-Bepridil hydrochloride,Medication
-Phenylalkylamine,Medication
-Gallopamil hydrochloride,Medication
-Gallopamil,Medication
-Verapamil,Medication
-Norverapamil,Medication
-Verapamil hydrochloride,Medication
-Piperazine derivative with calcium channel blocker mechanism of action,Medication
-Lidoflazine,Medication
-Substance with dihydropyridine derivative structure and calcium channel blocker mechanism of action ,Medication
-Lercanidipine hydrochloride hemihydrate,Medication
-Levamlodipine besylate,Medication
-Levamlodipine,Medication
-Amlodipine mesylate,Medication
-Cilnidipine,Medication
-Amlodipine benzoate,Medication
-Manidipine hydrochloride,Medication
-Manidipine,Medication
-Nilvadipine,Medication
-Barnidipine,Medication
-Nitrendipine,Medication
-Clevidipine,Medication
-Amlodipine maleate,Medication
-Lercanidipine,Medication
-Lercanidipine hydrochloride,Medication
-Lacidipine,Medication
-Nimodipine,Medication
-Nifedipine,Medication
-Amlodipine,Medication
-Felodipine,Medication
-Isradipine,Medication
-Nisoldipine,Medication
-Amlodipine besilate,Medication
-Nicardipine,Medication
-Nicardipine hydrochloride,Medication
-Nitrate-based vasodilating agent ,Medication
-"1,2-dinitroglycerin",Medication
-Nitroglycerin,Medication
-Isosorbide dinitrate,Medication
-Amyl nitrite,Medication
-Isosorbide mononitrate,Medication
-Pentaerythritol tetranitrate,Medication
-Erythrityl tetranitrate,Medication
-Amyl nitrate,Medication
-Inositol hexanitrate,Medication
-flosequinan,Medication
-hexobendine,Medication
-heptaminol,Medication
-nicorandil,Medication
-vericiguat,Medication
-SUBSTANCE WITH PLATELET AGGREGATION INHIBITOR MECHANISM OF ACTION ,Medication
-Substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action ,Medication
-Tirofiban hydrochloride,Medication
-Tirofiban hydrochloride anhydrous,Medication
-Tirofiban hydrochloride monohydrate,Medication
-Eptifibatide,Medication
-Tirofiban,Medication
-Abciximab,Medication
-Substance with P2Y12 G-protein-coupled platelet receptor antagonist mechanism of action ,Medication
-Prasugrel hydrobromide,Medication
-Cangrelor tetrasodium,Medication
-Prasugrel besylate,Medication
-Prasugrel hydrochloride,Medication
-Clopidogrel besylate,Medication
-Clopidogrel hydrochloride,Medication
-Cangrelor,Medication
-Ticagrelor,Medication
-Prasugrel,Medication
-Clopidogrel bisulfate,Medication
-Ticlopidine hydrochloride,Medication
-Clopidogrel,Medication
-Ticlopidine,Medication
-substance with glycoprotein-IIb/IIIa receptor antagonist mechanism of action ,Medication
-substance with P2Y12 G-protein-coupled platelet receptor antagonist mechanism of action,Medication
-caplacizumab,Medication
-aspirin DL-lysine ,Medication
-selexipag,Medication
-indobufen,Medication
-vorapaxar,Medication
-triflusal,Medication
-treprostinil,Medication
-buffered aspirin,Medication
-aloxiprin,Medication
-tirofiban hydrochloride monohydrate,Medication
-iloprost,Medication
-aspirin,Medication
-dipiridamol,Medication
-treprostinil sodium,Medication
-milrinone,Medication
-epoprostenol,Medication
-cilostazol,Medication
-calcium carbaspirin ,Medication
-epoprostenol sodium,Medication
-milrinone lactate,Medication
-resveratrol,Medication
-aluminium aspirin,Medication
-ANTICOAGULANTS,Medication
-resveratrol,Medication
-Direct acting anticoagulant ,Medication
-Argatroban anhydrous,Medication
-Heparin ammonium,Medication
-Heparin lithium,Medication
-Edoxaban tosilate,Medication
-Porcine heparin sodium,Medication
-Betrixaban,Medication
-Argatroban monohydrate,Medication
-Edoxaban,Medication
-Fondaparinux,Medication
-Dabigatran etexilate mesylate,Medication
-Dabigatran etexilate,Medication
-Nadroparin,Medication
-Dabigatran,Medication
-Sulodexide,Medication
-Nadroparin calcium,Medication
-Apixaban,Medication
-Rivaroxaban,Medication
-Ximelagatran,Medication
-Hirudin,Medication
-Direct thrombin inhibitor,Medication
-Tinzaparin,Medication
-Bovine heparin sodium,Medication
-Porcine heparin,Medication
-Bemiparin sodium,Medication
-Bemiparin,Medication
-Desirudin,Medication
-Reviparin,Medication
-Certoparin,Medication
-Tinzaparin sodium,Medication
-Certoparin sodium,Medication
-Reviparin sodium,Medication
-Lepirudin,Medication
-Danaparoid sodium,Medication
-Coagulation factor Xa inhibitor,Medication
-Fondaparinux sodium,Medication
-Ardeparin,Medication
-Low molecular weight heparin,Medication
-Heparin,Medication
-Heparinoid,Medication
-Pentosan polysulfate,Medication
-Danaparoid,Medication
-Dalteparin,Medication
-Enoxaparin,Medication
-Bivalirudin,Medication
-Argatroban,Medication
-Pentosan polysulfate sodium,Medication
-Ardeparin sodium,Medication
-Dalteparin sodium,Medication
-Enoxaparin sodium,Medication
-Heparin sodium,Medication
-Ancrod,Medication
-Heparin calcium,Medication
-Glucurolactone,Medication
-Indirect acting anticoagulant ,Medication
-Fluindione,Medication
-Human protein C,Medication
-Coumafuryl,Medication
-Difenacoum,Medication
-Long-acting coumarin derivative,Medication
-Difethialone,Medication
-Acenocoumarol,Medication
-Phenindione,Medication
-Coumarin anticoagulant,Medication
-Warfarin,Medication
-Indanedione,Medication
-Brodifacoum,Medication
-Acarboxy-protein C,Medication
-Bromadiolone,Medication
-Cyclocumarol,Medication
-Bromindione,Medication
-Dicumarol,Medication
-Warfarin sodium,Medication
-Phenprocoumon,Medication
-Ethyl biscoumacetate,Medication
-Potassium warfarin,Medication
-Anisindione,Medication
-4-hydroxycoumarin,Medication
-Chlorophacinone,Medication
-Protein C,Medication
-Diphenadione,Medication
-STATINS,Medication
-Atorvastatin calcium anhydrous,Medication
-Rosuvastatin zinc,Medication
-Atorvastatin calcium trihydrate,Medication
-Pitavastatin calcium,Medication
-Rosuvastatin,Medication
-Pitavastatin,Medication
-Fluvastatin sodium,Medication
-Rosuvastatin calcium,Medication
-Fluvastatin,Medication
-Simvastatin,Medication
-Pravastatin,Medication
-Atorvastatin,Medication
-Cerivastatin,Medication
-Atorvastatin calcium,Medication
-Cerivastatin sodium,Medication
-Pravastatin sodium,Medication
-Lovastatin,Medication
-DIGITALIS GLYCOSIDES,Medication
-Medigoxin,Medication
-Digitalis,Medication
-Digoxin,Medication
-Lanatoside C,Medication
-Digitoxin,Medication
-Ouabain,Medication
-Aglycone,Medication
-Deslanoside,Medication
-Acetyldigitoxin,Medication
-BETABLOCKERS    ,Medication
-Tertatolol hydrochloride,Medication
-Tertatolol,Medication
-Carvedilol phosphate,Medication
-Levobunolol,Medication
-Oxprenolol hydrochloride,Medication
-Oxprenolol,Medication
-Nadolol,Medication
-Practolol,Medication
-Levobunolol hydrochloride,Medication
-Pindolol,Medication
-Carvedilol,Medication
-Carteolol hydrochloride,Medication
-Carteolol,Medication
-Penbutolol sulfate,Medication
-Metipranolol,Medication
-Sotalol,Medication
-Timolol,Medication
-Propranolol,Medication
-Labetalol,Medication
-Beta-1 adrenergic receptor antagonist,Medication
-Penbutolol,Medication
-Metipranolol hydrochloride,Medication
-Sotalol hydrochloride,Medication
-Alprenolol,Medication
-Timolol maleate,Medication
-Propranolol hydrochloride,Medication
-Labetalol hydrochloride,Medication
-Beta-2 adrenergic receptor antagonist,Medication
-Substance with beta-1 adrenergic receptor antagonist mechanism of action ,Medication
-(S)-metoprolol tartrate,Medication
-(S)-metoprolol succinate,Medication
-(S)-metoprolol,Medication
-Nebivolol hydrochloride,Medication
-Metoprolol succinate,Medication
-Levobetaxolol,Medication
-Betaxolol,Medication
-Celiprolol,Medication
-Celiprolol hydrochloride,Medication
-Nebivolol,Medication
-Atenolol,Medication
-Betaxolol hydrochloride,Medication
-Bisoprolol fumarate,Medication
-Bisoprolol,Medication
-Esmolol,Medication
-Metoprolol,Medication
-Acebutolol,Medication
-Metoprolol tartrate,Medication
-Esmolol hydrochloride,Medication
-Acebutolol hydrochloride,Medication
-ANTIARRYTHMICS,Medication
-Substance with sodium channel blocker mechanism of action ,Medication
-Phenytoin calcium,Medication
-Lidocaine hydrochloride anhydrous,Medication
-Amiloride hydrochloride anhydrous,Medication
-Lidocaine hydrochloride monohydrate,Medication
-Lidocaine hydrocarbonate,Medication
-Free phenytoin,Medication
-Ranolazine,Medication
-Amiloride hydrochloride dihydrate,Medication
-Lamotrigine,Medication
-Amiloride hydrochloride,Medication
-Amiloride,Medication
-Lidocaine,Medication
-Phenytoin sodium,Medication
-Phenytoin,Medication
-Triamterene,Medication
-Oxcarbazepine,Medication
-Topiramate,Medication
-Moracizine,Medication
-Mexiletine,Medication
-Disopyramide,Medication
-Encainide,Medication
-Tocainide,Medication
-Mexiletine hydrochloride,Medication
-Moracizine hydrochloride,Medication
-Encainide hydrochloride,Medication
-Lidocaine hydrochloride,Medication
-Disopyramide phosphate,Medication
-Tocainide hydrochloride,Medication
-Substance with potassium channel blocker mechanism of action,Medication
-Amifampridine,Medication
-Dofetilide,Medication
-Dalfampridine,Medication
-IVABRADINE,Medication
-"SUBSTANCE WITH SODIUM GLUCOSE COTRANSPORTER SUBTYPE 2 INHIBITOR MECHANISM OF ACTION
-",Medication
-Dapagliflozin propanediol anhydrous,Medication
-Canagliflozin anhydrous,Medication
-Remogliflozin etabonate,Medication
-Ertugliflozin pidolate,Medication
-Dapagliflozin propanediol monohydrate,Medication
-Ertugliflozin,Medication
-Canagliflozin hemihydrate,Medication
-Empagliflozin,Medication
-Canagliflozin,Medication
-Dapagliflozin propanediol,Medication
-Dapagliflozin,Medication
+Heart valve disorder,signs and symptoms,368009,SNOMED,2024-06-01
+Tachycardia,signs and symptoms,3424008,SNOMED,2024-06-02
+Mean blood pressure,signs and symptoms,6797001,SNOMED,2024-06-03
+Ex-smoker,signs and symptoms,8517006,SNOMED,2024-06-04
+High density lipoprotein,signs and symptoms,9422000,SNOMED,2024-06-05
+Chronic obstructive pulmonary disease,signs and symptoms,13645005,SNOMED,2024-06-06
+Low density lipoprotein,signs and symptoms,22244007,SNOMED,2024-06-07
+Myocardial infarction,signs and symptoms,22298006,SNOMED,2024-06-08
+Raised jugular venous pressure,signs and symptoms,22447003,SNOMED,2024-06-09
+Albumin measurement,signs and symptoms,26758005,SNOMED,2024-06-10
+Body weight,signs and symptoms,27113001,SNOMED,2024-06-11
+Chest pain,signs and symptoms,29857009,SNOMED,2024-06-12
+Hospital admission,signs and symptoms,32485007,SNOMED,2024-06-13
+Ferritin,signs and symptoms,32789000,SNOMED,2024-06-14
+Hyperthyroidism,signs and symptoms,34486009,SNOMED,2024-06-15
+Depressive disorder,signs and symptoms,35489007,SNOMED,2024-06-16
+Hemoglobin,signs and symptoms,38082009,SNOMED,2024-06-17
+Hypertensive disorder,signs and symptoms,38341003,SNOMED,2024-06-18
+Sodium,signs and symptoms,39972003,SNOMED,2024-06-19
+Respiratory crackles,signs and symptoms,48409008,SNOMED,2024-06-20
+Atrial fibrillation,signs and symptoms,49436004,SNOMED,2024-06-21
+Dementia,signs and symptoms,52448006,SNOMED,2024-06-22
+Paroxysmal nocturnal dyspnoea,signs and symptoms,55442000,SNOMED,2024-06-23
+Pleural effusion,signs and symptoms,60046008,SNOMED,2024-06-24
+Gamma-glutamyltransferase,signs and symptoms,60153001,SNOMED,2024-06-25
+Body mass index,signs and symptoms,60621009,SNOMED,2024-06-26
+Pulse irregular,signs and symptoms,61086009,SNOMED,2024-06-27
+C reactive protein,signs and symptoms,61425002,SNOMED,2024-06-28
+AIDS,signs and symptoms,62479008,SNOMED,2024-06-29
+Nocturnal cough,signs and symptoms,62548007,SNOMED,2024-06-30
+Orthopnea,signs and symptoms,62744007,SNOMED,2024-07-01
+Hepatojugular reflux,signs and symptoms,72196001,SNOMED,2024-07-02
+Diabetes mellitus,signs and symptoms,73211009,SNOMED,2024-07-03
+Smoker,signs and symptoms,77176002,SNOMED,2024-07-04
+Obstructive sleep apnea syndrome,signs and symptoms,78275009,SNOMED,2024-07-05
+Loss of appetite,signs and symptoms,79890006,SNOMED,2024-07-06
+Glomerular filtration rate,signs and symptoms,80274001,SNOMED,2024-07-07
+Palpitations,signs and symptoms,80313002,SNOMED,2024-07-08
+Large liver,signs and symptoms,80515008,SNOMED,2024-07-09
+Oliguria,signs and symptoms,83128009,SNOMED,2024-07-10
+Heart failure,signs and symptoms,84114007,SNOMED,2024-07-11
+Fatigue,signs and symptoms,84229001,SNOMED,2024-07-12
+Cholesterol,signs and symptoms,84698008,SNOMED,2024-07-13
+Triacylglycerol,signs and symptoms,85600001,SNOMED,2024-07-14
+Cardiomyopathy,signs and symptoms,85898001,SNOMED,2024-07-15
+Human immunodeficiency virus infection,signs and symptoms,86406008,SNOMED,2024-07-16
+Potassium,signs and symptoms,88480006,SNOMED,2024-07-17
+Heart murmur,signs and symptoms,88610006,SNOMED,2024-07-18
+Weight loss,signs and symptoms,89362005,SNOMED,2024-07-19
+Troponin T,signs and symptoms,102682001,SNOMED,2024-07-20
+Troponin I,signs and symptoms,102683006,SNOMED,2024-07-21
+Blood urea nitrogen measurement,signs and symptoms,105011006,SNOMED,2024-07-22
+Transferrin saturation,signs and symptoms,165730006,SNOMED,2024-07-23
+Date of birth,signs and symptoms,184099003,SNOMED,2024-07-24
+Angina pectoris,signs and symptoms,194828000,SNOMED,2024-07-25
+Cerebrovascular accident,signs and symptoms,230690007,SNOMED,2024-07-26
+Coronary artery bypass graft,signs and symptoms,232717009,SNOMED,2024-07-27
+Disease of liver,signs and symptoms,235856003,SNOMED,2024-07-28
+Female,signs and symptoms,248152002,SNOMED,2024-07-29
+Male,signs and symptoms,248153007,SNOMED,2024-07-30
+Left ventricular ejection fraction,signs and symptoms,250908004,SNOMED,2024-07-31
+Left ventricular end-systolic cavity size,signs and symptoms,250931004,SNOMED,2024-08-01
+Right ventricular ejection fraction,signs and symptoms,250939002,SNOMED,2024-08-02
+Cardiac rhythm type,signs and symptoms,251149006,SNOMED,2024-08-03
+QRS Axis,signs and symptoms,251196003,SNOMED,2024-08-04
+QRS complex duration,signs and symptoms,251208001,SNOMED,2024-08-05
+Weight increased,signs and symptoms,262286000,SNOMED,2024-08-06
+Renal dialysis,signs and symptoms,265764009,SNOMED,2024-08-07
+Transient cerebral ischaemia,signs and symptoms,266257000,SNOMED,2024-08-08
+Never smoked tobacco,signs and symptoms,266919005,SNOMED,2024-08-09
+Tobacco smoking consumption unknown,signs and symptoms,266927001,SNOMED,2024-08-10
+Dyspnea,signs and symptoms,267036007,SNOMED,2024-08-11
+Swollen ankle region,signs and symptoms,267039000,SNOMED,2024-08-12
+Impaired exercise tolerance,signs and symptoms,267044007,SNOMED,2024-08-13
+Urine albumin measurement,signs and symptoms,271000000,SNOMED,2024-08-14
+Urine albumin/creatinine ratio measurement,signs and symptoms,271075006,SNOMED,2024-08-15
+"Creatine measurement, urine",signs and symptoms,271261008,SNOMED,2024-08-16
+Syncope,signs and symptoms,271594007,SNOMED,2024-08-17
+Peripheral edema,signs and symptoms,271809000,SNOMED,2024-08-18
+Tachypnoea,signs and symptoms,271823003,SNOMED,2024-08-19
+Third heart sound,signs and symptoms,277455002,SNOMED,2024-08-20
+Finding of heart rhythm,signs and symptoms,301112006,SNOMED,2024-08-21
+Body surface area,signs and symptoms,301898006,SNOMED,2024-08-22
+Cardiovascular implant,signs and symptoms,303490004,SNOMED,2024-08-23
+Vascular implant,signs and symptoms,303617005,SNOMED,2024-08-24
+Place of origin,signs and symptoms,307117005,SNOMED,2024-08-25
+Cheyne-Stokes respiration,signs and symptoms,309155007,SNOMED,2024-08-26
+Malignant neoplastic disease,signs and symptoms,363346000,SNOMED,2024-08-27
+Heart rate,signs and symptoms,364075005,SNOMED,2024-08-28
+Depressed mood,signs and symptoms,366979004,SNOMED,2024-08-29
+Aldosterone receptor antagonist,signs and symptoms,372603003,SNOMED,2024-08-30
+Loop diuretic,signs and symptoms,372691009,SNOMED,2024-08-31
+Diuretic,signs and symptoms,372695000,SNOMED,2024-09-01
+Angiotensin-converting enzyme inhibitor,signs and symptoms,372733002,SNOMED,2024-09-02
+Vasodilator,signs and symptoms,372787008,SNOMED,2024-09-03
+Anticoagulant,signs and symptoms,372862008,SNOMED,2024-09-04
+HMG-CoA reductase inhibitor,signs and symptoms,372912004,SNOMED,2024-09-05
+Angiotensin II receptor antagonist,signs and symptoms,372913009,SNOMED,2024-09-06
+Beta adrenergic receptor antagonist,signs and symptoms,373254001,SNOMED,2024-09-07
+Calcium channel blocker,signs and symptoms,373304005,SNOMED,2024-09-08
+Ascites,signs and symptoms,389026000,SNOMED,2024-09-09
+Rheumatism,signs and symptoms,396332003,SNOMED,2024-09-10
+Left ventricular area fractional change,signs and symptoms,399287000,SNOMED,2024-09-11
+Systolic blood pressure on admission,signs and symptoms,399304008,SNOMED,2024-09-12
+Date of admission,signs and symptoms,399423000,SNOMED,2024-09-13
+Acute ST segment elevation myocardial infarction,signs and symptoms,401303003,SNOMED,2024-09-14
+Acute non-ST segment elevation myocardial infarction,signs and symptoms,401314000,SNOMED,2024-09-15
+Dizziness,signs and symptoms,404640003,SNOMED,2024-09-16
+Digitalis glycoside,signs and symptoms,406759007,SNOMED,2024-09-17
+B-type natriuretic peptide,signs and symptoms,407059007,SNOMED,2024-09-18
+Ischemic heart disease,signs and symptoms,414545008,SNOMED,2024-09-19
+N-terminal pro-B-type natriuretic peptide,signs and symptoms,414798009,SNOMED,2024-09-20
+Percutaneous coronary intervention,signs and symptoms,415070008,SNOMED,2024-09-21
+Death,signs and symptoms,419620001,SNOMED,2024-09-22
+Transplant heart,signs and symptoms,420291005,SNOMED,2024-09-23
+New York Heart Association Classification,signs and symptoms,420816009,SNOMED,2024-09-24
+Ivabradine,signs and symptoms,421228002,SNOMED,2024-09-25
+Venous oxygen saturation,signs and symptoms,442349007,SNOMED,2024-09-26
+Arterial oxygen saturation,signs and symptoms,442476006,SNOMED,2024-09-27
+Diastolic blood pressure on admission,signs and symptoms,446226005,SNOMED,2024-09-28
+Smokes tobacco daily,signs and symptoms,449868002,SNOMED,2024-09-29
+Sodium glucose cotransporter subtype 2 inhibitor,signs and symptoms,703673007,SNOMED,2024-09-30
+Chronic kidney disease,signs and symptoms,709044004,SNOMED,2024-10-01
+Measurement of C-reactive protein using high sensitivity technique,signs and symptoms,711357009,SNOMED,2024-10-02
+a wave,signs and symptoms,723240002,SNOMED,2024-10-03
+Glycated hemoglobin-A1c,signs and symptoms,733830002,SNOMED,2024-10-04
+Platelet aggregation inhibitor,signs and symptoms,771452004,SNOMED,2024-10-05
+Sacubitril and valsartan only product,signs and symptoms,777480008,SNOMED,2024-10-06
+Sodium channel blocker,signs and symptoms,782436006,SNOMED,2024-10-07
+Peripheral arterial disease,signs and symptoms,840580004,SNOMED,2024-10-08
+Renin-angiotensin system inhibitor,signs and symptoms,866173006,SNOMED,2024-10-09
+Body height,signs and symptoms,1153637007,SNOMED,2024-10-10
+Occasional tobacco smoker,signs and symptoms,428041000124106,SNOMED,2024-10-11
+Flumethiazide,Medication,6513000,SNOMED,2024-10-14
+Chlorothiazide sodium,Medication,8252004,SNOMED,2024-10-15
+Trichlormethiazide,Medication,11473005,SNOMED,2024-10-16
+Diltiazem hydrochloride,Medication,12218006,SNOMED,2024-10-17
+Inositol hexanitrate,Medication,12970004,SNOMED,2024-10-18
+Verapamil hydrochloride,Medication,14340003,SNOMED,2024-10-19
+Mercaptomerin sodium,Medication,30333004,SNOMED,2024-10-20
+Mercumatilin,Medication,33667000,SNOMED,2024-10-21
+Cyclothiazide,Medication,37006008,SNOMED,2024-10-22
+Amisometradine,Medication,39263003,SNOMED,2024-10-23
+Amyl nitrate,Medication,41153003,SNOMED,2024-10-24
+Quinethazone,Medication,41261002,SNOMED,2024-10-25
+Sulfonamide diuretic,Medication,43585000,SNOMED,2024-10-26
+Enalaprilat,Medication,48052001,SNOMED,2024-10-27
+Merethoxylline procaine,Medication,49022000,SNOMED,2024-10-28
+Methazolamide,Medication,53052005,SNOMED,2024-10-29
+Erythrityl tetranitrate,Medication,62368002,SNOMED,2024-10-30
+Ethoxyzolamide,Medication,63203003,SNOMED,2024-10-31
+Tienilic acid,Medication,64029000,SNOMED,2024-11-01
+Benzthiazide,Medication,66290002,SNOMED,2024-11-02
+Chlormerodrin,Medication,74589005,SNOMED,2024-11-03
+Ethacrynate sodium,Medication,75341007,SNOMED,2024-11-04
+Theobromine,Medication,75371004,SNOMED,2024-11-05
+Aminometradine,Medication,80253002,SNOMED,2024-11-06
+Meralluride,Medication,85391002,SNOMED,2024-11-07
+Chlorazanil,Medication,88802007,SNOMED,2024-11-08
+Canrenone,Medication,96291007,SNOMED,2024-11-09
+Norverapamil,Medication,96297006,SNOMED,2024-11-10
+Torasemide,Medication,108476002,SNOMED,2024-11-11
+Nicardipine hydrochloride,Medication,108527006,SNOMED,2024-11-12
+Bepridil hydrochloride,Medication,108531000,SNOMED,2024-11-13
+Moexipril hydrochloride,Medication,108567007,SNOMED,2024-11-14
+Fosinopril sodium,Medication,108570006,SNOMED,2024-11-15
+Benazepril hydrochloride,Medication,108573008,SNOMED,2024-11-16
+Losartan potassium,Medication,108582002,SNOMED,2024-11-17
+Pamabrom,Medication,116552006,SNOMED,2024-11-18
+Perindopril erbumine,Medication,129485000,SNOMED,2024-11-19
+Eprosartan mesilate,Medication,129488003,SNOMED,2024-11-20
+Mercaptomerin,Medication,362947006,SNOMED,2024-11-21
+Nicardipine,Medication,372502001,SNOMED,2024-11-22
+Bepridil,Medication,372503006,SNOMED,2024-11-23
+Fosinopril,Medication,372510000,SNOMED,2024-11-24
+Benazepril,Medication,372511001,SNOMED,2024-11-25
+Candesartan,Medication,372512008,SNOMED,2024-11-26
+Aldosterone receptor antagonist,Medication,372603003,SNOMED,2024-11-27
+Enalapril,Medication,372658000,SNOMED,2024-11-28
+Saluretic agent,Medication,372660003,SNOMED,2024-11-29
+Loop diuretic,Medication,372691009,SNOMED,2024-11-30
+Diuretic,Medication,372695000,SNOMED,2024-12-01
+Nitrate-based vasodilating agent,Medication,372700007,SNOMED,2024-12-02
+Acetazolamide,Medication,372709008,SNOMED,2024-12-03
+Angiotensin-converting enzyme inhibitor,Medication,372733002,SNOMED,2024-12-04
+Thiazide diuretic,Medication,372747003,SNOMED,2024-12-05
+Potassium-sparing diuretic,Medication,372753003,SNOMED,2024-12-06
+Verapamil,Medication,372754009,SNOMED,2024-12-07
+Uricosuric agent,Medication,372758007,SNOMED,2024-12-08
+Chlorothiazide,Medication,372782002,SNOMED,2024-12-09
+Osmotic diuretic,Medication,372792005,SNOMED,2024-12-10
+Diltiazem,Medication,372793000,SNOMED,2024-12-11
+Angiotensin II receptor antagonist,Medication,372913009,SNOMED,2024-12-12
+Perindopril,Medication,372916001,SNOMED,2024-12-13
+Calcium channel blocker,Medication,373304005,SNOMED,2024-12-14
+Moexipril,Medication,373442003,SNOMED,2024-12-15
+Ethacrynic acid,Medication,373536004,SNOMED,2024-12-16
+Losartan,Medication,373567002,SNOMED,2024-12-17
+Mercurial diuretic,Medication,373751005,SNOMED,2024-12-18
+Amlodipine besilate,Medication,384976003,SNOMED,2024-12-19
+Pentaerythritol tetranitrate,Medication,386836006,SNOMED,2024-12-20
+Gabapentin,Medication,386845007,SNOMED,2024-12-21
+Isosorbide,Medication,386853004,SNOMED,2024-12-22
+Isosorbide mononitrate,Medication,386854005,SNOMED,2024-12-23
+Nisoldipine,Medication,386861009,SNOMED,2024-12-24
+Isradipine,Medication,386862002,SNOMED,2024-12-25
+Felodipine,Medication,386863007,SNOMED,2024-12-26
+Amlodipine,Medication,386864001,SNOMED,2024-12-27
+Trandolapril,Medication,386871006,SNOMED,2024-12-28
+Ramipril,Medication,386872004,SNOMED,2024-12-29
+Lisinopril,Medication,386873009,SNOMED,2024-12-30
+Quinapril,Medication,386874003,SNOMED,2024-12-31
+Quinapril hydrochloride,Medication,386875002,SNOMED,2025-01-01
+Valsartan,Medication,386876001,SNOMED,2025-01-02
+Irbesartan,Medication,386877005,SNOMED,2025-01-03
+Candesartan cilexetil,Medication,386878000,SNOMED,2025-01-04
+Amyl nitrite,Medication,387038004,SNOMED,2025-01-05
+Triamterene,Medication,387053007,SNOMED,2025-01-06
+Telmisartan,Medication,387069000,SNOMED,2025-01-07
+Spironolactone,Medication,387078006,SNOMED,2025-01-08
+Urea,Medication,387092000,SNOMED,2025-01-09
+Sulfinpyrazone,Medication,387108008,SNOMED,2025-01-10
+Metolazone,Medication,387123003,SNOMED,2025-01-11
+Mersalyl,Medication,387157006,SNOMED,2025-01-12
+Captopril,Medication,387160004,SNOMED,2025-01-13
+Enalapril maleate,Medication,387165009,SNOMED,2025-01-14
+Mannitol,Medication,387168006,SNOMED,2025-01-15
+Prenylamine,Medication,387288001,SNOMED,2025-01-16
+Chlortalidone,Medication,387324004,SNOMED,2025-01-17
+Isosorbide dinitrate,Medication,387332007,SNOMED,2025-01-18
+Probenecid,Medication,387365004,SNOMED,2025-01-19
+Methyclothiazide,Medication,387373008,SNOMED,2025-01-20
+Nitroglycerin,Medication,387404004,SNOMED,2025-01-21
+Indapamide,Medication,387419003,SNOMED,2025-01-22
+Furosemide,Medication,387475002,SNOMED,2025-01-23
+Choline theophyllinate,Medication,387489007,SNOMED,2025-01-24
+Nifedipine,Medication,387490003,SNOMED,2025-01-25
+Polythiazide,Medication,387492006,SNOMED,2025-01-26
+Bumetanide,Medication,387498005,SNOMED,2025-01-27
+Nimodipine,Medication,387502003,SNOMED,2025-01-28
+Amiloride,Medication,387503008,SNOMED,2025-01-29
+Amiloride hydrochloride,Medication,387516008,SNOMED,2025-01-30
+Bendroflumethiazide,Medication,387520007,SNOMED,2025-01-31
+Hydrochlorothiazide,Medication,387525002,SNOMED,2025-02-01
+Apazone,Medication,391798003,SNOMED,2025-02-02
+Imidapril hydrochloride,Medication,395741003,SNOMED,2025-02-03
+Lacidipine,Medication,395764001,SNOMED,2025-02-04
+Lercanidipine hydrochloride,Medication,395768003,SNOMED,2025-02-05
+Mersalyl sodium,Medication,395784002,SNOMED,2025-02-06
+Xipamide,Medication,395923001,SNOMED,2025-02-07
+Clopamide,Medication,395940005,SNOMED,2025-02-08
+Hydroflumethiazide,Medication,395946004,SNOMED,2025-02-09
+Cilazapril,Medication,395947008,SNOMED,2025-02-10
+Imidapril,Medication,395984005,SNOMED,2025-02-11
+Lercanidipine,Medication,395986007,SNOMED,2025-02-12
+Cyclopenthiazide,Medication,396009008,SNOMED,2025-02-13
+Eprosartan,Medication,396044005,SNOMED,2025-02-14
+Phenylalkylamine,Medication,406766008,SNOMED,2025-02-15
+Benzothiazepine,Medication,406767004,SNOMED,2025-02-16
+Diarylaminopropylamine,Medication,406768009,SNOMED,2025-02-17
+Dihydropyridine derivative calcium channel blocker,Medication,406769001,SNOMED,2025-02-18
+Mefruside,Medication,406772008,SNOMED,2025-02-19
+Eplerenone,Medication,407010008,SNOMED,2025-02-20
+Diltiazem maleate,Medication,410870005,SNOMED,2025-02-21
+Amiloride hydrochloride dihydrate,Medication,412082007,SNOMED,2025-02-22
+Olmesartan,Medication,412259001,SNOMED,2025-02-23
+Olmesartan medoxomil,Medication,412260006,SNOMED,2025-02-24
+Terodiline,Medication,417479000,SNOMED,2025-02-25
+Piperazine-derivative calcium channel blocker,Medication,418559008,SNOMED,2025-02-26
+Lidoflazine,Medication,418865004,SNOMED,2025-02-27
+Purine derivative diuretic,Medication,419151007,SNOMED,2025-02-28
+Piretanide,Medication,419451002,SNOMED,2025-03-01
+Potassium canrenoate,Medication,419615001,SNOMED,2025-03-02
+Amlodipine maleate,Medication,421048000,SNOMED,2025-03-03
+Mibefradil,Medication,421651006,SNOMED,2025-03-04
+Perhexiline,Medication,421817009,SNOMED,2025-03-05
+Conivaptan,Medication,421858002,SNOMED,2025-03-06
+Aliskiren fumarate,Medication,425981005,SNOMED,2025-03-07
+Renin inhibitor,Medication,426228001,SNOMED,2025-03-08
+Aliskiren,Medication,426725002,SNOMED,2025-03-09
+Clevidipine,Medication,439471002,SNOMED,2025-03-10
+Perindopril arginine,Medication,442509000,SNOMED,2025-03-11
+Tolvaptan,Medication,443058000,SNOMED,2025-03-12
+Nitrendipine,Medication,444757009,SNOMED,2025-03-13
+Azilsartan,Medication,449042005,SNOMED,2025-03-14
+Azilsartan medoxomil,Medication,449561004,SNOMED,2025-03-15
+Pinaverium bromide,Medication,698023008,SNOMED,2025-03-16
+Benzbromarone,Medication,698025001,SNOMED,2025-03-17
+Barnidipine,Medication,698052006,SNOMED,2025-03-18
+Delapril,Medication,698093003,SNOMED,2025-03-19
+Delapril hydrochloride,Medication,700066002,SNOMED,2025-03-20
+Gabapentin enacarbil,Medication,703122000,SNOMED,2025-03-21
+Zofenopril,Medication,703340007,SNOMED,2025-03-22
+Zofenopril calcium,Medication,703341006,SNOMED,2025-03-23
+Zofenoprilat,Medication,703342004,SNOMED,2025-03-24
+Zofenoprilat,Medication,703342004,SNOMED,2025-03-25
+Zofenoprilat arginine,Medication,703343009,SNOMED,2025-03-26
+Gallopamil,Medication,703433005,SNOMED,2025-03-27
+Gallopamil hydrochloride,Medication,703434004,SNOMED,2025-03-28
+Nilvadipine,Medication,713436005,SNOMED,2025-03-29
+Spirapril,Medication,713473008,SNOMED,2025-03-30
+Lesinurad,Medication,715259003,SNOMED,2025-03-31
+Althiazide,Medication,717101002,SNOMED,2025-04-01
+"1,2-dinitroglycerin",Medication,725531004,SNOMED,2025-04-02
+Indapamide hemihydrate,Medication,725661001,SNOMED,2025-04-03
+Cilazapril monohydrate,Medication,725786001,SNOMED,2025-04-04
+Irbesartan hydrochloride,Medication,734504000,SNOMED,2025-04-05
+Cicletanine,Medication,735156005,SNOMED,2025-04-06
+Cicletanine hydrochloride,Medication,735160008,SNOMED,2025-04-07
+Perindopril tosylate,Medication,735174001,SNOMED,2025-04-08
+Manidipine,Medication,765322004,SNOMED,2025-04-09
+Manidipine hydrochloride,Medication,765323009,SNOMED,2025-04-10
+Sacubitril and valsartan only product,Medication,777480008,SNOMED,2025-04-11
+Terodiline hydrochloride,Medication,782604006,SNOMED,2025-04-12
+Amlodipine benzoate,Medication,789067004,SNOMED,2025-04-13
+Renin-angiotensin system inhibitor,Medication,866173006,SNOMED,2025-04-14
+Azilsartan medoxomil potassium,Medication,895431005,SNOMED,2025-04-15
+Enalapril sodium,Medication,1119307002,SNOMED,2025-04-16
+Perindopril erbumine monohydrate,Medication,1119308007,SNOMED,2025-04-17
+Finerenone,Medication,1163346008,SNOMED,2025-04-18
+Cilnidipine,Medication,1177123004,SNOMED,2025-04-19
+Amlodipine mesylate,Medication,1193663008,SNOMED,2025-04-20
+Levamlodipine,Medication,1217308000,SNOMED,2025-04-21
+Levamlodipine besylate,Medication,1217324004,SNOMED,2025-04-22
+Amiloride hydrochloride anhydrous,Medication,1268944002,SNOMED,2025-04-23
+Cilazapril anhydrous,Medication,1268982005,SNOMED,2025-04-24
+Lisinopril anhydrous,Medication,1269132005,SNOMED,2025-04-25
+Benidipine hydrochloride,Medication,1303527004,SNOMED,2025-04-26
+Benidipine,Medication,1303528009,SNOMED,2025-04-27
+Lercanidipine hydrochloride hemihydrate,Medication,1304158004,SNOMED,2025-04-28
+Perhexiline maleate,Medication,1332137007,SNOMED,2025-04-29
+Fimasartan,Medication,1332433003,SNOMED,2025-04-30
+Fimasartan potassium trihydrate,Medication,1332434009,SNOMED,2025-05-01
+Lisinopril dihydrate,Medication,341000220102,SNOMED,2025-05-02
+Butizide,Medication,20551000122108,SNOMED,2025-05-03
+Tocainide hydrochloride,Medication,2195004,SNOMED,2025-05-04
+Acebutolol hydrochloride,Medication,3597005,SNOMED,2025-05-05
+Glucurolactone,Medication,18600008,SNOMED,2025-05-06
+Diphenadione,Medication,20368008,SNOMED,2025-05-07
+Protein C,Medication,25525005,SNOMED,2025-05-08
+Heparin calcium,Medication,29725000,SNOMED,2025-05-09
+4-hydroxycoumarin,Medication,31011004,SNOMED,2025-05-10
+Aglycone,Medication,35135004,SNOMED,2025-05-11
+Esmolol hydrochloride,Medication,35318005,SNOMED,2025-05-12
+Ouabain,Medication,35966009,SNOMED,2025-05-13
+Beta-2 adrenergic receptor antagonist,Medication,37751002,SNOMED,2025-05-14
+Anisindione,Medication,38122009,SNOMED,2025-05-15
+Potassium warfarin,Medication,41509001,SNOMED,2025-05-16
+Ancrod,Medication,43848004,SNOMED,2025-05-17
+Heparin sodium,Medication,50045009,SNOMED,2025-05-18
+Phenprocoumon,Medication,59488002,SNOMED,2025-05-19
+Lidocaine hydrochloride,Medication,61773008,SNOMED,2025-05-20
+Warfarin sodium,Medication,63167009,SNOMED,2025-05-21
+Propranolol hydrochloride,Medication,65088001,SNOMED,2025-05-22
+Timolol maleate,Medication,75359005,SNOMED,2025-05-23
+Dicumarol,Medication,79209008,SNOMED,2025-05-24
+Dalfampridine,Medication,80994002,SNOMED,2025-05-25
+Encainide hydrochloride,Medication,81017004,SNOMED,2025-05-26
+Bromindione,Medication,88352008,SNOMED,2025-05-27
+Cyclocumarol,Medication,88589005,SNOMED,2025-05-28
+Bromadiolone,Medication,95993009,SNOMED,2025-05-29
+Alprenolol,Medication,96294004,SNOMED,2025-05-30
+Resveratrol,Medication,96383001,SNOMED,2025-05-31
+Acarboxy-protein C,Medication,103249001,SNOMED,2025-06-01
+Moracizine hydrochloride,Medication,108489008,SNOMED,2025-06-02
+Mexiletine hydrochloride,Medication,108500007,SNOMED,2025-06-03
+Cerivastatin sodium,Medication,108597004,SNOMED,2025-06-04
+Atorvastatin calcium,Medication,108601004,SNOMED,2025-06-05
+Enoxaparin sodium,Medication,108983001,SNOMED,2025-06-06
+Dalteparin sodium,Medication,108987000,SNOMED,2025-06-07
+Ardeparin sodium,Medication,108990006,SNOMED,2025-06-08
+Pentosan polysulfate sodium,Medication,109117004,SNOMED,2025-06-09
+Carbaspirin calcium,Medication,111122008,SNOMED,2025-06-10
+Cilostazol,Medication,116087001,SNOMED,2025-06-11
+Dofetilide,Medication,116107002,SNOMED,2025-06-12
+Brodifacoum,Medication,117448002,SNOMED,2025-06-13
+Sotalol hydrochloride,Medication,125691000,SNOMED,2025-06-14
+Metipranolol hydrochloride,Medication,126152000,SNOMED,2025-06-15
+Tocainide,Medication,372479006,SNOMED,2025-06-16
+Epoprostenol,Medication,372513003,SNOMED,2025-06-17
+Enoxaparin,Medication,372562003,SNOMED,2025-06-18
+Dalteparin,Medication,372563008,SNOMED,2025-06-19
+Danaparoid,Medication,372564002,SNOMED,2025-06-20
+Indanedione,Medication,372573005,SNOMED,2025-06-21
+Heparinoid,Medication,372637006,SNOMED,2025-06-22
+Beta-1 adrenergic receptor antagonist,Medication,372661004,SNOMED,2025-06-23
+Encainide,Medication,372749000,SNOMED,2025-06-24
+Labetalol,Medication,372750000,SNOMED,2025-06-25
+Warfarin,Medication,372756006,SNOMED,2025-06-26
+Propranolol,Medication,372772003,SNOMED,2025-06-27
+Antiarrhythmic agent,Medication,372813008,SNOMED,2025-06-28
+Acebutolol,Medication,372815001,SNOMED,2025-06-29
+Anticoagulant,Medication,372862008,SNOMED,2025-06-30
+Heparin,Medication,372877000,SNOMED,2025-07-01
+Timolol,Medication,372880004,SNOMED,2025-07-02
+Coumarin anticoagulant,Medication,373307003,SNOMED,2025-07-03
+Digitoxin,Medication,373534001,SNOMED,2025-07-04
+Pravastatin,Medication,373566006,SNOMED,2025-07-05
+Moracizine,Medication,373726009,SNOMED,2025-07-06
+Ardeparin,Medication,373731006,SNOMED,2025-07-07
+Coagulation factor Xa inhibitor,Medication,385577009,SNOMED,2025-07-08
+Treprostinil sodium,Medication,385681001,SNOMED,2025-07-09
+Carteolol hydrochloride,Medication,386867008,SNOMED,2025-07-10
+Bisoprolol,Medication,386868003,SNOMED,2025-07-11
+Bisoprolol fumarate,Medication,386869006,SNOMED,2025-07-12
+Carvedilol,Medication,386870007,SNOMED,2025-07-13
+Clopidogrel,Medication,386952008,SNOMED,2025-07-14
+Tirofiban,Medication,386953003,SNOMED,2025-07-15
+Danaparoid sodium,Medication,386954009,SNOMED,2025-07-16
+Lepirudin,Medication,386955005,SNOMED,2025-07-17
+Eptifibatide,Medication,386998009,SNOMED,2025-07-18
+Oxcarbazepine,Medication,387025007,SNOMED,2025-07-19
+Pindolol,Medication,387102009,SNOMED,2025-07-20
+Betaxolol hydrochloride,Medication,387195001,SNOMED,2025-07-21
+Phenytoin,Medication,387220006,SNOMED,2025-07-22
+Phenindione,Medication,387260007,SNOMED,2025-07-23
+Lanatoside C,Medication,387338006,SNOMED,2025-07-24
+Levobunolol hydrochloride,Medication,387349000,SNOMED,2025-07-25
+Lamotrigine,Medication,387562000,SNOMED,2025-07-26
+Oxprenolol,Medication,387583006,SNOMED,2025-07-27
+Simvastatin,Medication,387584000,SNOMED,2025-07-28
+Nebivolol,Medication,395808005,SNOMED,2025-07-29
+Nicorandil,Medication,395809002,SNOMED,2025-07-30
+Oxprenolol hydrochloride,Medication,395817005,SNOMED,2025-07-31
+Celiprolol hydrochloride,Medication,395874008,SNOMED,2025-08-01
+Ticlopidine hydrochloride,Medication,395904008,SNOMED,2025-08-02
+Celiprolol,Medication,395960002,SNOMED,2025-08-03
+Certoparin,Medication,395961003,SNOMED,2025-08-04
+Reviparin,Medication,395998002,SNOMED,2025-08-05
+Rosuvastatin calcium,Medication,406435003,SNOMED,2025-08-06
+Digitalis glycoside,Medication,406759007,SNOMED,2025-08-07
+Desirudin,Medication,407117009,SNOMED,2025-08-08
+Betaxolol,Medication,409276006,SNOMED,2025-08-09
+Levobetaxolol,Medication,409277002,SNOMED,2025-08-10
+Difethialone,Medication,410940004,SNOMED,2025-08-11
+Bemiparin,Medication,410964003,SNOMED,2025-08-12
+Porcine heparin,Medication,412201008,SNOMED,2025-08-13
+Bovine heparin sodium,Medication,412202001,SNOMED,2025-08-14
+Tirofiban hydrochloride monohydrate,Medication,412321006,SNOMED,2025-08-15
+Flosequinan,Medication,412391002,SNOMED,2025-08-16
+Fluvastatin sodium,Medication,412392009,SNOMED,2025-08-17
+Metoprolol succinate,Medication,412432007,SNOMED,2025-08-18
+Tinzaparin,Medication,412608008,SNOMED,2025-08-19
+Direct thrombin inhibitor,Medication,414010005,SNOMED,2025-08-20
+Medigoxin,Medication,418574005,SNOMED,2025-08-21
+Levobunolol,Medication,418934007,SNOMED,2025-08-22
+Long-acting coumarin derivative,Medication,420092006,SNOMED,2025-08-23
+Ranolazine,Medication,420365007,SNOMED,2025-08-24
+Difenacoum,Medication,420968001,SNOMED,2025-08-25
+Aloxiprin,Medication,421012002,SNOMED,2025-08-26
+Amifampridine,Medication,422654000,SNOMED,2025-08-27
+Buffered aspirin,Medication,426365001,SNOMED,2025-08-28
+Carvedilol phosphate,Medication,426471008,SNOMED,2025-08-29
+Prasugrel,Medication,443129001,SNOMED,2025-08-30
+Apixaban,Medication,698090000,SNOMED,2025-08-31
+Nadroparin calcium,Medication,698278006,SNOMED,2025-09-01
+Ticagrelor,Medication,698805004,SNOMED,2025-09-02
+Dabigatran,Medication,698871007,SNOMED,2025-09-03
+Triflusal,Medication,698872000,SNOMED,2025-09-04
+Nadroparin,Medication,699946002,SNOMED,2025-09-05
+Dabigatran etexilate,Medication,700029008,SNOMED,2025-09-06
+Rosuvastatin,Medication,700067006,SNOMED,2025-09-07
+Sodium glucose cotransporter subtype 2 inhibitor,Medication,703673007,SNOMED,2025-09-08
+Dapagliflozin,Medication,703674001,SNOMED,2025-09-09
+Dapagliflozin propanediol,Medication,703675000,SNOMED,2025-09-10
+Canagliflozin,Medication,703676004,SNOMED,2025-09-11
+Free phenytoin,Medication,706933005,SNOMED,2025-09-12
+Edoxaban,Medication,712778008,SNOMED,2025-09-13
+Lidocaine hydrocarbonate,Medication,719905003,SNOMED,2025-09-14
+Canagliflozin hemihydrate,Medication,725664009,SNOMED,2025-09-15
+Argatroban monohydrate,Medication,725736007,SNOMED,2025-09-16
+Tertatolol hydrochloride,Medication,734455009,SNOMED,2025-09-17
+Nebivolol hydrochloride,Medication,734565001,SNOMED,2025-09-18
+Clopidogrel besylate,Medication,734972007,SNOMED,2025-09-19
+Aspirin DL-lysine,Medication,735135008,SNOMED,2025-09-20
+Prasugrel hydrochloride,Medication,735166002,SNOMED,2025-09-21
+Betrixaban,Medication,735227003,SNOMED,2025-09-22
+Platelet aggregation inhibitor,Medication,771452004,SNOMED,2025-09-23
+Sodium channel blocker,Medication,782436006,SNOMED,2025-09-24
+Porcine heparin sodium,Medication,784398008,SNOMED,2025-09-25
+Vericiguat,Medication,1145150000,SNOMED,2025-09-26
+Edoxaban tosilate,Medication,1162278009,SNOMED,2025-09-27
+Remogliflozin etabonate,Medication,1162688000,SNOMED,2025-09-28
+Cangrelor tetrasodium,Medication,1217149008,SNOMED,2025-09-29
+Rosuvastatin zinc,Medication,1217216007,SNOMED,2025-09-30
+Prasugrel hydrobromide,Medication,1217508004,SNOMED,2025-10-01
+(S)-metoprolol succinate,Medication,1240360003,SNOMED,2025-10-02
+(S)-metoprolol tartrate,Medication,1240361004,SNOMED,2025-10-03
+Heparin lithium,Medication,1256102004,SNOMED,2025-10-04
+Heparin ammonium,Medication,1259913003,SNOMED,2025-10-05
+Argatroban anhydrous,Medication,1268948004,SNOMED,2025-10-06
+Atorvastatin calcium anhydrous,Medication,1268949007,SNOMED,2025-10-07
+Dapagliflozin propanediol anhydrous,Medication,1269001007,SNOMED,2025-10-08
+Lidocaine hydrochloride anhydrous,Medication,1269131003,SNOMED,2025-10-09
+Tirofiban hydrochloride anhydrous,Medication,1269172001,SNOMED,2025-10-10
+Tirofiban hydrochloride,Medication,1269173006,SNOMED,2025-10-11
+Fluindione,Medication,19351000122101,SNOMED,2025-10-12
+Acetyldigitoxin,Medication,7834009,SNOMED,2025-10-13
+Deslanoside,Medication,16214005,SNOMED,2025-10-14
+Aluminium aspirin,Medication,25796002,SNOMED,2025-10-15
+Chlorophacinone,Medication,26371006,SNOMED,2025-10-16
+Disopyramide phosphate,Medication,49565007,SNOMED,2025-10-17
+Labetalol hydrochloride,Medication,50627005,SNOMED,2025-10-18
+Ethyl biscoumacetate,Medication,51739000,SNOMED,2025-10-19
+Metoprolol tartrate,Medication,72770009,SNOMED,2025-10-20
+Heptaminol,Medication,96259006,SNOMED,2025-10-21
+Lovastatin,Medication,96303004,SNOMED,2025-10-22
+Pravastatin sodium,Medication,96306007,SNOMED,2025-10-23
+Milrinone lactate,Medication,108481006,SNOMED,2025-10-24
+Epoprostenol sodium,Medication,108594006,SNOMED,2025-10-25
+Argatroban,Medication,116508003,SNOMED,2025-10-26
+Bivalirudin,Medication,129498009,SNOMED,2025-10-27
+Penbutolol,Medication,372505004,SNOMED,2025-10-28
+Pentosan polysulfate,Medication,372571007,SNOMED,2025-10-29
+Direct acting anticoagulant,Medication,372636002,SNOMED,2025-10-30
+Metoprolol,Medication,372826007,SNOMED,2025-10-31
+Disopyramide,Medication,372844004,SNOMED,2025-11-01
+Esmolol,Medication,372847006,SNOMED,2025-11-02
+Mexiletine,Medication,372909002,SNOMED,2025-11-03
+Sotalol,Medication,372911006,SNOMED,2025-11-04
+HMG-CoA reductase inhibitor,Medication,372912004,SNOMED,2025-11-05
+Beta adrenergic receptor antagonist,Medication,373254001,SNOMED,2025-11-06
+Low molecular weight heparin,Medication,373294004,SNOMED,2025-11-07
+Milrinone,Medication,373441005,SNOMED,2025-11-08
+Cerivastatin,Medication,373443008,SNOMED,2025-11-09
+Atorvastatin,Medication,373444002,SNOMED,2025-11-10
+Metipranolol,Medication,373446000,SNOMED,2025-11-11
+Fondaparinux sodium,Medication,385517000,SNOMED,2025-11-12
+Topiramate,Medication,386844006,SNOMED,2025-11-13
+Penbutolol sulfate,Medication,386865000,SNOMED,2025-11-14
+Carteolol,Medication,386866004,SNOMED,2025-11-15
+Ticlopidine,Medication,386950000,SNOMED,2025-11-16
+Abciximab,Medication,386951001,SNOMED,2025-11-17
+Dipyridamole,Medication,387371005,SNOMED,2025-11-18
+Phenytoin sodium,Medication,387416005,SNOMED,2025-11-19
+Practolol,Medication,387436006,SNOMED,2025-11-20
+Acenocoumarol,Medication,387457003,SNOMED,2025-11-21
+Aspirin,Medication,387458008,SNOMED,2025-11-22
+Digoxin,Medication,387461009,SNOMED,2025-11-23
+Lidocaine,Medication,387480006,SNOMED,2025-11-24
+Nadolol,Medication,387482003,SNOMED,2025-11-25
+Atenolol,Medication,387506000,SNOMED,2025-11-26
+Digitalis,Medication,387521006,SNOMED,2025-11-27
+Fluvastatin,Medication,387585004,SNOMED,2025-11-28
+Iloprost,Medication,395740002,SNOMED,2025-11-29
+Reviparin sodium,Medication,395864005,SNOMED,2025-11-30
+Certoparin sodium,Medication,395884009,SNOMED,2025-12-01
+Tinzaparin sodium,Medication,395908006,SNOMED,2025-12-02
+Bemiparin sodium,Medication,410967005,SNOMED,2025-12-03
+Clopidogrel bisulfate,Medication,412354008,SNOMED,2025-12-04
+Hirudin,Medication,414407009,SNOMED,2025-12-05
+Potassium channel blocker,Medication,415152007,SNOMED,2025-12-06
+Ximelagatran,Medication,415853004,SNOMED,2025-12-07
+Indirect acting anticoagulant,Medication,419847008,SNOMED,2025-12-08
+Coumafuryl,Medication,421212007,SNOMED,2025-12-09
+Ivabradine,Medication,421228002,SNOMED,2025-12-10
+Rivaroxaban,Medication,442031002,SNOMED,2025-12-11
+Treprostinil,Medication,443570007,SNOMED,2025-12-12
+Pitavastatin,Medication,443586000,SNOMED,2025-12-13
+Sulodexide,Medication,698844007,SNOMED,2025-12-14
+Dabigatran etexilate mesylate,Medication,700039002,SNOMED,2025-12-15
+Pitavastatin calcium,Medication,700402009,SNOMED,2025-12-16
+Empagliflozin,Medication,703894008,SNOMED,2025-12-17
+Fondaparinux,Medication,708189008,SNOMED,2025-12-18
+Vorapaxar,Medication,708718003,SNOMED,2025-12-19
+Hexobendine,Medication,710319000,SNOMED,2025-12-20
+Cangrelor,Medication,716118009,SNOMED,2025-12-21
+Tertatolol,Medication,716124003,SNOMED,2025-12-22
+Indobufen,Medication,717166005,SNOMED,2025-12-23
+Selexipag,Medication,717359004,SNOMED,2025-12-24
+Atorvastatin calcium trihydrate,Medication,725658002,SNOMED,2025-12-25
+Clopidogrel hydrochloride,Medication,734471009,SNOMED,2025-12-26
+Ertugliflozin,Medication,764274008,SNOMED,2025-12-27
+Dapagliflozin propanediol monohydrate,Medication,783086004,SNOMED,2025-12-28
+Human protein C,Medication,784406001,SNOMED,2025-12-29
+Caplacizumab,Medication,784411004,SNOMED,2025-12-30
+Prasugrel besylate,Medication,1149423007,SNOMED,2025-12-31
+Ertugliflozin pidolate,Medication,1162393006,SNOMED,2026-01-01
+P2Y12 G-protein-coupled platelet receptor antagonist,Medication,1162905001,SNOMED,2026-01-02
+Platelet glycoprotein-IIb/IIIa receptor antagonist,Medication,1162907009,SNOMED,2026-01-03
+Lidocaine hydrochloride monohydrate,Medication,1217602005,SNOMED,2026-01-04
+(S)-metoprolol,Medication,1240343008,SNOMED,2026-01-05
+Canagliflozin anhydrous,Medication,1268978008,SNOMED,2026-01-06
+Phenytoin calcium,Medication,445821000221103,SNOMED,2026-01-07
