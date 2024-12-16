@@ -1,0 +1,823 @@
+kvinnligt k�n,signs and symptoms,248152002,SNOMED,2024-06-01
+manligt k�n,signs and symptoms,248153007,SNOMED,2024-06-01
+f�delsedatum,signs and symptoms,184099003,SNOMED,2024-06-01
+kroppsl�ngd,signs and symptoms,1153637007,SNOMED,2024-06-01
+kroppsvikt,signs and symptoms,27113001,SNOMED,2024-06-01
+BMI,signs and symptoms,60621009,SNOMED,2024-06-01
+ursprungsplats,signs and symptoms,307117005,SNOMED,2024-06-01
+inskrivningsdatum,signs and symptoms,399423000,SNOMED,2024-06-01
+NYHA-klassificering,signs and symptoms,420816009,SNOMED,2024-06-01
+br�stsm�rta,signs and symptoms,29857009,SNOMED,2024-06-01
+dyspn�,signs and symptoms,267036007,SNOMED,2024-06-01
+ortopn�,signs and symptoms,62744007,SNOMED,2024-06-01
+paroxysmal nattlig dyspn�,signs and symptoms,55442000,SNOMED,2024-06-01
+nedsatt tolerans f�r fysisk anstr�ngning,signs and symptoms,267044007,SNOMED,2024-06-01
+fatigue,signs and symptoms,84229001,SNOMED,2024-06-01
+svullen ankel,signs and symptoms,267039000,SNOMED,2024-06-01
+nattlig hosta,signs and symptoms,62548007,SNOMED,2024-06-01
+aptitl�shet,signs and symptoms,79890006,SNOMED,2024-06-01
+s�nkt st�mningsl�ge,signs and symptoms,366979004,SNOMED,2024-06-01
+hj�rtklappning,signs and symptoms,80313002,SNOMED,2024-06-01
+yrsel,signs and symptoms,404640003,SNOMED,2024-06-01
+svimning,signs and symptoms,271594007,SNOMED,2024-06-01
+f�rh�jt tryck i vena jugularis,signs and symptoms,22447003,SNOMED,2024-06-01
+hepatojugul�r reflux,signs and symptoms,72196001,SNOMED,2024-06-01
+tredje hj�rttonen,signs and symptoms,277455002,SNOMED,2024-06-01
+viktuppg�ng,signs and symptoms,262286000,SNOMED,2024-06-01
+viktnedg�ng,signs and symptoms,89362005,SNOMED,2024-06-01
+hj�rtbl�sljud,signs and symptoms,88610006,SNOMED,2024-06-01
+perifert �dem,signs and symptoms,271809000,SNOMED,2024-06-01
+krepitationer vid andning,signs and symptoms,48409008,SNOMED,2024-06-01
+utgjutning i lungs�ck,signs and symptoms,60046008,SNOMED,2024-06-01
+takykardi,signs and symptoms,3424008,SNOMED,2024-06-01
+oregelbunden puls,signs and symptoms,61086009,SNOMED,2024-06-01
+takypn�,signs and symptoms,271823003,SNOMED,2024-06-01
+Cheyne-Stokes andning,signs and symptoms,309155007,SNOMED,2024-06-01
+stor lever,signs and symptoms,80515008,SNOMED,2024-06-01
+ascites,signs and symptoms,389026000,SNOMED,2024-06-01
+oliguri,signs and symptoms,83128009,SNOMED,2024-06-01
+systoliskt blodtryck vid inskrivning,signs and symptoms,399304008,SNOMED,2024-06-01
+diastoliskt blodtryck vid inl�ggning,signs and symptoms,446226005,SNOMED,2024-06-01
+medelblodtryck,signs and symptoms,6797001,SNOMED,2024-06-01
+ven�s syrem�ttnad,signs and symptoms,442349007,SNOMED,2024-06-01
+arteriell syrem�ttnad,signs and symptoms,442476006,SNOMED,2024-06-01
+typ av hj�rtrytm,signs and symptoms,251149006,SNOMED,2024-06-01
+akut hj�rtinfarkt med ST-h�jning,signs and symptoms,401303003,SNOMED,2024-06-01
+akut hj�rtinfarkt utan ST-h�jning,signs and symptoms,401314000,SNOMED,2024-06-01
+QRS-komplexets duration,signs and symptoms,251208001,SNOMED,2024-06-01
+QRS-komplexets el-axel,signs and symptoms,251196003,SNOMED,2024-06-01
+hj�rtfrekvens,signs and symptoms,364075005,SNOMED,2024-06-01
+v�nster kammares ejektionsfraktion,signs and symptoms,250908004,SNOMED,2024-06-01
+kroppsytans area,signs and symptoms,301898006,SNOMED,2024-06-01
+volym p� v�nster kammare i slutsystole,signs and symptoms,250931004,SNOMED,2024-06-01
+h�ger kammares ejektionsfraktion,signs and symptoms,250939002,SNOMED,2024-06-01
+fynd som r�r hj�rtrytm,signs and symptoms,301112006,SNOMED,2024-06-01
+en v�g,signs and symptoms,723240002,SNOMED,2024-06-01
+relativ f�r�ndring av v�nster kammares area,signs and symptoms,399287000,SNOMED,2024-06-01
+hemoglobin,signs and symptoms,38082009,SNOMED,2024-06-01
+ferritin,signs and symptoms,32789000,SNOMED,2024-06-01
+transferrinm�ttnad,signs and symptoms,165730006,SNOMED,2024-06-01
+N-terminal natriuretisk peptid av pro-B-typ,signs and symptoms,414798009,SNOMED,2024-06-01
+"natriuretisk peptid, B-typ",signs and symptoms,407059007,SNOMED,2024-06-01
+m�tning av C-reaktivt protein med h�gk�nslig teknik,signs and symptoms,711357009,SNOMED,2024-06-01
+c-reaktivt protein,signs and symptoms,61425002,SNOMED,2024-06-01
+troponin I,signs and symptoms,102683006,SNOMED,2024-06-01
+troponin T,signs and symptoms,102682001,SNOMED,2024-06-01
+triacylglycerol,signs and symptoms,85600001,SNOMED,2024-06-01
+kolesterol,signs and symptoms,84698008,SNOMED,2024-06-01
+HDL,signs and symptoms,9422000,SNOMED,2024-06-01
+LDL,signs and symptoms,22244007,SNOMED,2024-06-01
+kalium,signs and symptoms,88480006,SNOMED,2024-06-01
+natrium,signs and symptoms,39972003,SNOMED,2024-06-01
+gammaglutamyltransferas,signs and symptoms,60153001,SNOMED,2024-06-01
+m�tning av kreatin i urin,signs and symptoms,271261008,SNOMED,2024-06-01
+albuminm�tning,signs and symptoms,26758005,SNOMED,2024-06-01
+m�tning av albumin i urin,signs and symptoms,271000000,SNOMED,2024-06-01
+glomerul�r filtrationshastighet,signs and symptoms,80274001,SNOMED,2024-06-01
+m�tning av ureakv�ve i blod,signs and symptoms,105011006,SNOMED,2024-06-01
+m�tning av albumin-kreatininkvot i urin,signs and symptoms,271075006,SNOMED,2024-06-01
+glykerat hemoglobin-A1c,signs and symptoms,733830002,SNOMED,2024-06-01
+angina pectoris,signs and symptoms,194828000,SNOMED,2024-06-01
+f�rmaksflimmer,signs and symptoms,49436004,SNOMED,2024-06-01
+kardiomyopati,signs and symptoms,85898001,SNOMED,2024-06-01
+hj�rtsvikt,signs and symptoms,84114007,SNOMED,2024-06-01
+hypertoni,signs and symptoms,38341003,SNOMED,2024-06-01
+ischemisk hj�rtsjukdom,signs and symptoms,414545008,SNOMED,2024-06-01
+hj�rtinfarkt,signs and symptoms,22298006,SNOMED,2024-06-01
+perifer art�rsjukdom,signs and symptoms,840580004,SNOMED,2024-06-01
+stroke,signs and symptoms,230690007,SNOMED,2024-06-01
+transitorisk ischemisk attack,signs and symptoms,266257000,SNOMED,2024-06-01
+hj�rtklaffsjukdom,signs and symptoms,368009,SNOMED,2024-06-01
+AIDS (acquired immune deficiency syndrome),signs and symptoms,62479008,SNOMED,2024-06-01
+infektion orsakad av humant immunbristvirus (HIV),signs and symptoms,86406008,SNOMED,2024-06-01
+kroniskt obstruktiv lungsjukdom,signs and symptoms,13645005,SNOMED,2024-06-01
+diabetes mellitus,signs and symptoms,73211009,SNOMED,2024-06-01
+demens,signs and symptoms,52448006,SNOMED,2024-06-01
+depression,signs and symptoms,35489007,SNOMED,2024-06-01
+njurdialys,signs and symptoms,265764009,SNOMED,2024-06-01
+hypertyreos,signs and symptoms,34486009,SNOMED,2024-06-01
+leversjukdom,signs and symptoms,235856003,SNOMED,2024-06-01
+malign tum�rsjukdom,signs and symptoms,363346000,SNOMED,2024-06-01
+obstruktivt s�mnapn�syndrom,signs and symptoms,78275009,SNOMED,2024-06-01
+reumatism,signs and symptoms,396332003,SNOMED,2024-06-01
+kronisk njursjukdom,signs and symptoms,709044004,SNOMED,2024-06-01
+r�kare,signs and symptoms,77176002,SNOMED,2024-06-01
+f�re detta r�kare,signs and symptoms,8517006,SNOMED,2024-06-01
+dagligr�kare,signs and symptoms,449868002,SNOMED,2024-06-01
+sporadisk tobaksr�kare,signs and symptoms,428041000124106,SNOMED,2024-06-01
+har aldrig varit r�kare,signs and symptoms,266919005,SNOMED,2024-06-01
+f�rbrukning av r�ktobak ok�nd,signs and symptoms,266927001,SNOMED,2024-06-01
+h�mmare av renin-angiotensinsystemet,signs and symptoms,866173006,SNOMED,2024-06-01
+ACE-h�mmare,signs and symptoms,372733002,SNOMED,2024-06-01
+angiotensin 2-receptorantagonist,signs and symptoms,372913009,SNOMED,2024-06-01
+l�kemedel som endast inneh�ller sakubitril och valsartan,signs and symptoms,777480008,SNOMED,2024-06-01
+aldosteronantagonister,signs and symptoms,372603003,SNOMED,2024-06-01
+diuretika,signs and symptoms,372695000,SNOMED,2024-06-01
+loopdiuretikum,signs and symptoms,372691009,SNOMED,2024-06-01
+kalciumkanalblockerare,signs and symptoms,373304005,SNOMED,2024-06-01
+k�rlvidgande medel,signs and symptoms,372787008,SNOMED,2024-06-01
+trombocytaggregationsh�mmare,signs and symptoms,771452004,SNOMED,2024-06-01
+antikoagulans,signs and symptoms,372862008,SNOMED,2024-06-01
+HMG-CoA-reduktash�mmare,signs and symptoms,372912004,SNOMED,2024-06-01
+digitalisglykosid,signs and symptoms,406759007,SNOMED,2024-06-01
+betablockerare,signs and symptoms,373254001,SNOMED,2024-06-01
+natriumkanalblockerare,signs and symptoms,782436006,SNOMED,2024-06-01
+ivabradin,signs and symptoms,421228002,SNOMED,2024-06-01
+"h�mmare av natrium-glukossymport�r, subtyp 2",signs and symptoms,703673007,SNOMED,2024-06-01
+koronar bypassoperation,signs and symptoms,232717009,SNOMED,2024-06-01
+perkutan kransk�rlsintervention,signs and symptoms,415070008,SNOMED,2024-06-01
+kardiovaskul�rt implantat,signs and symptoms,303490004,SNOMED,2024-06-01
+k�rlimplantat,signs and symptoms,303617005,SNOMED,2024-06-01
+transplantatmaterial fr�n hj�rta,signs and symptoms,420291005,SNOMED,2024-06-01
+inskrivning p� sjukhus,signs and symptoms,32485007,SNOMED,2024-06-01
+d�dsfall,signs and symptoms,419620001,SNOMED,2024-06-01
+h�mmare av renin-angiotensinsystemet,signs and symptoms,866173006,SNOMED,2024-06-01
+angiotensin 2-receptorantagonist,signs and symptoms,372913009,SNOMED,2024-06-01
+,Medication,1332434009,SNOMED,2024-06-01
+,Medication,1332433003,SNOMED,2024-06-01
+azilsartanmedoxomilkalium,Medication,895431005,SNOMED,2024-06-01
+irbesartanhydroklorid,Medication,734504000,SNOMED,2024-06-01
+azilsartanmedoxomil,Medication,449561004,SNOMED,2024-06-01
+azilsartan,Medication,449042005,SNOMED,2024-06-01
+olmesartanmedoxomil,Medication,412260006,SNOMED,2024-06-01
+olmesartan,Medication,412259001,SNOMED,2024-06-01
+eprosartan,Medication,396044005,SNOMED,2024-06-01
+telmisartan,Medication,387069000,SNOMED,2024-06-01
+kandesartancilexetil,Medication,386878000,SNOMED,2024-06-01
+irbesartan,Medication,386877005,SNOMED,2024-06-01
+valsartan,Medication,386876001,SNOMED,2024-06-01
+losartan,Medication,373567002,SNOMED,2024-06-01
+kandesartan,Medication,372512008,SNOMED,2024-06-01
+eprosartanmesilat,Medication,129488003,SNOMED,2024-06-01
+losartankalium,Medication,108582002,SNOMED,2024-06-01
+ACE-h�mmare,signs and symptoms,372733002,SNOMED,2024-06-01
+lisinoprildihydrat,Medication,341000220102,SNOMED,2024-06-01
+"lisinopril, vattenfri",Medication,1269132005,SNOMED,2024-06-01
+"cilazapril, vattenfri",Medication,1268982005,SNOMED,2024-06-01
+perindopril-tert-butylaminmonohydrat,Medication,1119308007,SNOMED,2024-06-01
+enalaprilnatrium,Medication,1119307002,SNOMED,2024-06-01
+perindopriltosilat,Medication,735174001,SNOMED,2024-06-01
+cilazaprilmonohydrat,Medication,725786001,SNOMED,2024-06-01
+spirapril,Medication,713473008,SNOMED,2024-06-01
+zofenoprilatarginin,Medication,703343009,SNOMED,2024-06-01
+,Medication,703342004,SNOMED,2024-06-01
+spirapril,Medication,713473008,SNOMED,2024-06-01
+zofenoprilatarginin,Medication,703343009,SNOMED,2024-06-01
+zofenoprilat,Medication,703342004,SNOMED,2024-06-01
+zofenoprilkalcium,Medication,703341006,SNOMED,2024-06-01
+zofenopril,Medication,703340007,SNOMED,2024-06-01
+delaprilhydroklorid,Medication,700066002,SNOMED,2024-06-01
+delapril,Medication,698093003,SNOMED,2024-06-01
+perindoprilarginin,Medication,442509000,SNOMED,2024-06-01
+imidapril,Medication,395984005,SNOMED,2024-06-01
+cilazapril,Medication,395947008,SNOMED,2024-06-01
+imidaprilhydroklorid,Medication,395741003,SNOMED,2024-06-01
+enalaprilmaleat,Medication,387165009,SNOMED,2024-06-01
+kaptopril,Medication,387160004,SNOMED,2024-06-01
+kinaprilhydroklorid,Medication,386875002,SNOMED,2024-06-01
+kinapril,Medication,386874003,SNOMED,2024-06-01
+lisinopril,Medication,386873009,SNOMED,2024-06-01
+ramipril,Medication,386872004,SNOMED,2024-06-01
+trandolapril,Medication,386871006,SNOMED,2024-06-01
+moexipril,Medication,373442003,SNOMED,2024-06-01
+perindopril,Medication,372916001,SNOMED,2024-06-01
+enalapril,Medication,372658000,SNOMED,2024-06-01
+benazepril,Medication,372511001,SNOMED,2024-06-01
+fosinopril,Medication,372510000,SNOMED,2024-06-01
+perindopril-tert-butylamin,Medication,129485000,SNOMED,2024-06-01
+benazeprilhydroklorid,Medication,108573008,SNOMED,2024-06-01
+fosinoprilnatrium,Medication,108570006,SNOMED,2024-06-01
+moexiprilhydroklorid,Medication,108567007,SNOMED,2024-06-01
+enalaprilat,Medication,48052001,SNOMED,2024-06-01
+reninh�mmare,Medication,426228001,SNOMED,2024-06-01
+aliskiren,Medication,426725002,SNOMED,2024-06-01
+aliskirenfumarat,Medication,425981005,SNOMED,2024-06-01
+ACE-h�mmare,signs and symptoms,372733002,SNOMED,2024-06-01
+lisinoprildihydrat,Medication,341000220102,SNOMED,2024-06-01
+"lisinopril, vattenfri",Medication,1269132005,SNOMED,2024-06-01
+"cilazapril, vattenfri",Medication,1268982005,SNOMED,2024-06-01
+perindopril-tert-butylaminmonohydrat,Medication,1119308007,SNOMED,2024-06-01
+enalaprilnatrium,Medication,1119307002,SNOMED,2024-06-01
+perindopriltosilat,Medication,735174001,SNOMED,2024-06-01
+cilazaprilmonohydrat,Medication,725786001,SNOMED,2024-06-01
+angiotensin 2-receptorantagonist,signs and symptoms,372913009,SNOMED,2024-06-01
+,Medication,1332434009,SNOMED,2024-06-01
+,Medication,1332433003,SNOMED,2024-06-01
+azilsartanmedoxomilkalium,Medication,895431005,SNOMED,2024-06-01
+irbesartanhydroklorid,Medication,734504000,SNOMED,2024-06-01
+azilsartanmedoxomil,Medication,449561004,SNOMED,2024-06-01
+azilsartan,Medication,449042005,SNOMED,2024-06-01
+olmesartanmedoxomil,Medication,412260006,SNOMED,2024-06-01
+olmesartan,Medication,412259001,SNOMED,2024-06-01
+eprosartan,Medication,396044005,SNOMED,2024-06-01
+telmisartan,Medication,387069000,SNOMED,2024-06-01
+kandesartancilexetil,Medication,386878000,SNOMED,2024-06-01
+irbesartan,Medication,386877005,SNOMED,2024-06-01
+valsartan,Medication,386876001,SNOMED,2024-06-01
+losartan,Medication,373567002,SNOMED,2024-06-01
+kandesartan,Medication,372512008,SNOMED,2024-06-01
+eprosartanmesilat,Medication,129488003,SNOMED,2024-06-01
+losartankalium,Medication,108582002,SNOMED,2024-06-01
+l�kemedel som endast inneh�ller sakubitril och valsartan,signs and symptoms,777480008,SNOMED,2024-06-01
+aldosteronantagonister,signs and symptoms,372603003,SNOMED,2024-06-01
+finerenon,Medication,1163346008,SNOMED,2024-06-01
+kaliumkanrenoat,Medication,419615001,SNOMED,2024-06-01
+eplerenon,Medication,407010008,SNOMED,2024-06-01
+spironolakton,Medication,387078006,SNOMED,2024-06-01
+kanrenon,Medication,96291007,SNOMED,2024-06-01
+diuretika,signs and symptoms,372695000,SNOMED,2024-06-01
+acetazolamid,Medication,372709008,SNOMED,2024-06-01
+aminometradin,Medication,80253002,SNOMED,2024-06-01
+amisometradin,Medication,39263003,SNOMED,2024-06-01
+klorazanil,Medication,88802007,SNOMED,2024-06-01
+cikletanin,Medication,735156005,SNOMED,2024-06-01
+cikletaninhydroklorid,Medication,735160008,SNOMED,2024-06-01
+konivaptan,Medication,421858002,SNOMED,2024-06-01
+flumetiazid,Medication,6513000,SNOMED,2024-06-01
+pamabrom,Medication,116552006,SNOMED,2024-06-01
+tolvaptan,Medication,443058000,SNOMED,2024-06-01
+kvicksilverdiuretika,Medication,373751005,SNOMED,2024-06-01
+mersalylnatrium,Medication,395784002,SNOMED,2024-06-01
+mersalyl,Medication,387157006,SNOMED,2024-06-01
+merkaptomerin,Medication,362947006,SNOMED,2024-06-01
+merallurid,Medication,85391002,SNOMED,2024-06-01
+klormerodrin,Medication,74589005,SNOMED,2024-06-01
+meretoxyllinprokain,Medication,49022000,SNOMED,2024-06-01
+merkumatilin,Medication,33667000,SNOMED,2024-06-01
+merkaptomerinnatrium,Medication,30333004,SNOMED,2024-06-01
+osmotiska diuretika,Medication,372792005,SNOMED,2024-06-01
+mannitol,Medication,387168006,SNOMED,2024-06-01
+urea,Medication,387092000,SNOMED,2024-06-01
+isosorbid,Medication,386853004,SNOMED,2024-06-01
+kaliumsparande diuretika,Medication,372753003,SNOMED,2024-06-01
+"amiloridhydroklorid, vattenfri",Medication,1268944002,SNOMED,2024-06-01
+amiloridhydrokloriddihydrat,Medication,412082007,SNOMED,2024-06-01
+amiloridhydroklorid,Medication,387516008,SNOMED,2024-06-01
+amilorid,Medication,387503008,SNOMED,2024-06-01
+triamteren,Medication,387053007,SNOMED,2024-06-01
+diuretikum inneh�llande purinderivat,Medication,419151007,SNOMED,2024-06-01
+kolinteofyllinat,Medication,387489007,SNOMED,2024-06-01
+teobromin,Medication,75371004,SNOMED,2024-06-01
+saluretikum,Medication,372660003,SNOMED,2024-06-01
+butizid,Medication,20551000122108,SNOMED,2024-06-01
+bumetanid,Medication,387498005,SNOMED,2024-06-01
+furosemid,Medication,387475002,SNOMED,2024-06-01
+klortalidon,Medication,387324004,SNOMED,2024-06-01
+etakrynsyra,Medication,373536004,SNOMED,2024-06-01
+klorotiazid,Medication,372782002,SNOMED,2024-06-01
+torsemid,Medication,108476002,SNOMED,2024-06-01
+natriumetakrynat,Medication,75341007,SNOMED,2024-06-01
+benstiazid,Medication,66290002,SNOMED,2024-06-01
+tikrynafen,Medication,64029000,SNOMED,2024-06-01
+kinetazon,Medication,41261002,SNOMED,2024-06-01
+cyklotiazid,Medication,37006008,SNOMED,2024-06-01
+triklormetiazid,Medication,11473005,SNOMED,2024-06-01
+klorotiazidnatrium,Medication,8252004,SNOMED,2024-06-01
+sulfonamiddiuretika,Medication,43585000,SNOMED,2024-06-01
+indapamidhemihydrat,Medication,725661001,SNOMED,2024-06-01
+mefrusid,Medication,406772008,SNOMED,2024-06-01
+klopamid,Medication,395940005,SNOMED,2024-06-01
+xipamid,Medication,395923001,SNOMED,2024-06-01
+indapamid,Medication,387419003,SNOMED,2024-06-01
+metolazon,Medication,387123003,SNOMED,2024-06-01
+etoxizolamid,Medication,63203003,SNOMED,2024-06-01
+metazolamid,Medication,53052005,SNOMED,2024-06-01
+tiaziddiuretika,Medication,372747003,SNOMED,2024-06-01
+altiazid,Medication,717101002,SNOMED,2024-06-01
+cyklopentiazid,Medication,396009008,SNOMED,2024-06-01
+hydroflumetiazid,Medication,395946004,SNOMED,2024-06-01
+hydroklortiazid,Medication,387525002,SNOMED,2024-06-01
+bendroflumetiazid,Medication,387520007,SNOMED,2024-06-01
+polytiazid,Medication,387492006,SNOMED,2024-06-01
+metyklotiazid,Medication,387373008,SNOMED,2024-06-01
+urinsyradrivande medel,Medication,372758007,SNOMED,2024-06-01
+lesinurad,Medication,715259003,SNOMED,2024-06-01
+bensbromaron,Medication,698025001,SNOMED,2024-06-01
+azapropazon,Medication,391798003,SNOMED,2024-06-01
+probenecid,Medication,387365004,SNOMED,2024-06-01
+sulfinpyrazon,Medication,387108008,SNOMED,2024-06-01
+loopdiuretikum,signs and symptoms,372691009,SNOMED,2024-06-01
+piretanid,Medication,419451002,SNOMED,2024-06-01
+kalciumkanalblockerare,signs and symptoms,373304005,SNOMED,2024-06-01
+,Medication,1332137007,SNOMED,2024-06-01
+,Medication,1303528009,SNOMED,2024-06-01
+,Medication,1303527004,SNOMED,2024-06-01
+terodilinhydroklorid,Medication,782604006,SNOMED,2024-06-01
+gabapentinenakarbil,Medication,703122000,SNOMED,2024-06-01
+pinaveriumbromid,Medication,698023008,SNOMED,2024-06-01
+perhexilin,Medication,421817009,SNOMED,2024-06-01
+mibefradil,Medication,421651006,SNOMED,2024-06-01
+terodilin,Medication,417479000,SNOMED,2024-06-01
+prenylamin,Medication,387288001,SNOMED,2024-06-01
+gabapentin,Medication,386845007,SNOMED,2024-06-01
+bensotiazepin,Medication,406767004,SNOMED,2024-06-01
+diltiazemmaleat,Medication,410870005,SNOMED,2024-06-01
+diltiazem,Medication,372793000,SNOMED,2024-06-01
+diltiazemhydroklorid,Medication,12218006,SNOMED,2024-06-01
+diarylaminopropylamin,Medication,406768009,SNOMED,2024-06-01
+bepridil,Medication,372503006,SNOMED,2024-06-01
+bepridilhydroklorid,Medication,108531000,SNOMED,2024-06-01
+fenylalkylamin,Medication,406766008,SNOMED,2024-06-01
+gallopamilhydroklorid,Medication,703434004,SNOMED,2024-06-01
+gallopamil,Medication,703433005,SNOMED,2024-06-01
+verapamil,Medication,372754009,SNOMED,2024-06-01
+norverapamil,Medication,96297006,SNOMED,2024-06-01
+verapamilhydroklorid,Medication,14340003,SNOMED,2024-06-01
+kalciumkanalblockerare inneh�llande piperazinderivat,Medication,418559008,SNOMED,2024-06-01
+lidoflazin,Medication,418865004,SNOMED,2024-06-01
+kalciumkanalblockerare inneh�llande dihydropyridinderivat,Medication,406769001,SNOMED,2024-06-01
+,Medication,1304158004,SNOMED,2024-06-01
+levamlodipinbesilat,Medication,1217324004,SNOMED,2024-06-01
+levamlodipin,Medication,1217308000,SNOMED,2024-06-01
+amlodipinmesilat,Medication,1193663008,SNOMED,2024-06-01
+cilnidipin,Medication,1177123004,SNOMED,2024-06-01
+amlodipinbensoat,Medication,789067004,SNOMED,2024-06-01
+manidipinhydroklorid,Medication,765323009,SNOMED,2024-06-01
+manidipin,Medication,765322004,SNOMED,2024-06-01
+nilvadipin,Medication,713436005,SNOMED,2024-06-01
+barnidipin,Medication,698052006,SNOMED,2024-06-01
+nitrendipin,Medication,444757009,SNOMED,2024-06-01
+klevidipin,Medication,439471002,SNOMED,2024-06-01
+amlodipinmaleat,Medication,421048000,SNOMED,2024-06-01
+lerkanidipin,Medication,395986007,SNOMED,2024-06-01
+lerkanidipinhydroklorid,Medication,395768003,SNOMED,2024-06-01
+lacidipin,Medication,395764001,SNOMED,2024-06-01
+nimodipin,Medication,387502003,SNOMED,2024-06-01
+nifedipin,Medication,387490003,SNOMED,2024-06-01
+amlodipin,Medication,386864001,SNOMED,2024-06-01
+felodipin,Medication,386863007,SNOMED,2024-06-01
+isradipin,Medication,386862002,SNOMED,2024-06-01
+nisoldipin,Medication,386861009,SNOMED,2024-06-01
+amlodipinbesilat,Medication,384976003,SNOMED,2024-06-01
+nikardipin,Medication,372502001,SNOMED,2024-06-01
+nikardipinhydroklorid,Medication,108527006,SNOMED,2024-06-01
+nitratbaserat k�rlvidgande medel,Medication,372700007,SNOMED,2024-06-01
+"1,2-dinitroglycerin",Medication,725531004,SNOMED,2024-06-01
+glyceryltrinitrat,Medication,387404004,SNOMED,2024-06-01
+isosorbiddinitrat,Medication,387332007,SNOMED,2024-06-01
+amylnitrit,Medication,387038004,SNOMED,2024-06-01
+isosorbidmononitrat,Medication,386854005,SNOMED,2024-06-01
+pentaerytritoltetranitrat,Medication,386836006,SNOMED,2024-06-01
+erytrityltetranitrat,Medication,62368002,SNOMED,2024-06-01
+amylnitrat,Medication,41153003,SNOMED,2024-06-01
+inositolhexanitrat,Medication,12970004,SNOMED,2024-06-01
+h�mmare av renin-angiotensinsystemet,signs and symptoms,866173006,SNOMED,2024-06-01
+angiotensin 2-receptorantagonist,signs and symptoms,372913009,SNOMED,2024-06-01
+,Medication,1332434009,SNOMED,2024-06-01
+,Medication,1332433003,SNOMED,2024-06-01
+azilsartanmedoxomilkalium,Medication,895431005,SNOMED,2024-06-01
+irbesartanhydroklorid,Medication,734504000,SNOMED,2024-06-01
+azilsartanmedoxomil,Medication,449561004,SNOMED,2024-06-01
+azilsartan,Medication,449042005,SNOMED,2024-06-01
+olmesartanmedoxomil,Medication,412260006,SNOMED,2024-06-01
+olmesartan,Medication,412259001,SNOMED,2024-06-01
+eprosartan,Medication,396044005,SNOMED,2024-06-01
+telmisartan,Medication,387069000,SNOMED,2024-06-01
+kandesartancilexetil,Medication,386878000,SNOMED,2024-06-01
+irbesartan,Medication,386877005,SNOMED,2024-06-01
+valsartan,Medication,386876001,SNOMED,2024-06-01
+losartan,Medication,373567002,SNOMED,2024-06-01
+kandesartan,Medication,372512008,SNOMED,2024-06-01
+eprosartanmesilat,Medication,129488003,SNOMED,2024-06-01
+losartankalium,Medication,108582002,SNOMED,2024-06-01
+ACE-h�mmare,signs and symptoms,372733002,SNOMED,2024-06-01
+lisinoprildihydrat,Medication,341000220102,SNOMED,2024-06-01
+"lisinopril, vattenfri",Medication,1269132005,SNOMED,2024-06-01
+"cilazapril, vattenfri",Medication,1268982005,SNOMED,2024-06-01
+perindopril-tert-butylaminmonohydrat,Medication,1119308007,SNOMED,2024-06-01
+enalaprilnatrium,Medication,1119307002,SNOMED,2024-06-01
+perindopriltosilat,Medication,735174001,SNOMED,2024-06-01
+cilazaprilmonohydrat,Medication,725786001,SNOMED,2024-06-01
+spirapril,Medication,713473008,SNOMED,2024-06-01
+zofenoprilatarginin,Medication,703343009,SNOMED,2024-06-01
+,Medication,703342004,SNOMED,2024-06-01
+spirapril,Medication,713473008,SNOMED,2024-06-01
+zofenoprilatarginin,Medication,703343009,SNOMED,2024-06-01
+zofenoprilat,Medication,703342004,SNOMED,2024-06-01
+zofenoprilkalcium,Medication,703341006,SNOMED,2024-06-01
+zofenopril,Medication,703340007,SNOMED,2024-06-01
+delaprilhydroklorid,Medication,700066002,SNOMED,2024-06-01
+delapril,Medication,698093003,SNOMED,2024-06-01
+perindoprilarginin,Medication,442509000,SNOMED,2024-06-01
+imidapril,Medication,395984005,SNOMED,2024-06-01
+cilazapril,Medication,395947008,SNOMED,2024-06-01
+imidaprilhydroklorid,Medication,395741003,SNOMED,2024-06-01
+enalaprilmaleat,Medication,387165009,SNOMED,2024-06-01
+kaptopril,Medication,387160004,SNOMED,2024-06-01
+kinaprilhydroklorid,Medication,386875002,SNOMED,2024-06-01
+kinapril,Medication,386874003,SNOMED,2024-06-01
+lisinopril,Medication,386873009,SNOMED,2024-06-01
+ramipril,Medication,386872004,SNOMED,2024-06-01
+trandolapril,Medication,386871006,SNOMED,2024-06-01
+moexipril,Medication,373442003,SNOMED,2024-06-01
+perindopril,Medication,372916001,SNOMED,2024-06-01
+enalapril,Medication,372658000,SNOMED,2024-06-01
+benazepril,Medication,372511001,SNOMED,2024-06-01
+fosinopril,Medication,372510000,SNOMED,2024-06-01
+perindopril-tert-butylamin,Medication,129485000,SNOMED,2024-06-01
+benazeprilhydroklorid,Medication,108573008,SNOMED,2024-06-01
+fosinoprilnatrium,Medication,108570006,SNOMED,2024-06-01
+moexiprilhydroklorid,Medication,108567007,SNOMED,2024-06-01
+enalaprilat,Medication,48052001,SNOMED,2024-06-01
+reninh�mmare,Medication,426228001,SNOMED,2024-06-01
+aliskiren,Medication,426725002,SNOMED,2024-06-01
+aliskirenfumarat,Medication,425981005,SNOMED,2024-06-01
+ACE-h�mmare,signs and symptoms,372733002,SNOMED,2024-06-01
+lisinoprildihydrat,Medication,341000220102,SNOMED,2024-06-01
+"lisinopril, vattenfri",Medication,1269132005,SNOMED,2024-06-01
+"cilazapril, vattenfri",Medication,1268982005,SNOMED,2024-06-01
+perindopril-tert-butylaminmonohydrat,Medication,1119308007,SNOMED,2024-06-01
+enalaprilnatrium,Medication,1119307002,SNOMED,2024-06-01
+perindopriltosilat,Medication,735174001,SNOMED,2024-06-01
+cilazaprilmonohydrat,Medication,725786001,SNOMED,2024-06-01
+angiotensin 2-receptorantagonist,signs and symptoms,372913009,SNOMED,2024-06-01
+,Medication,1332434009,SNOMED,2024-06-01
+,Medication,1332433003,SNOMED,2024-06-01
+azilsartanmedoxomilkalium,Medication,895431005,SNOMED,2024-06-01
+irbesartanhydroklorid,Medication,734504000,SNOMED,2024-06-01
+azilsartanmedoxomil,Medication,449561004,SNOMED,2024-06-01
+azilsartan,Medication,449042005,SNOMED,2024-06-01
+olmesartanmedoxomil,Medication,412260006,SNOMED,2024-06-01
+olmesartan,Medication,412259001,SNOMED,2024-06-01
+eprosartan,Medication,396044005,SNOMED,2024-06-01
+telmisartan,Medication,387069000,SNOMED,2024-06-01
+kandesartancilexetil,Medication,386878000,SNOMED,2024-06-01
+irbesartan,Medication,386877005,SNOMED,2024-06-01
+valsartan,Medication,386876001,SNOMED,2024-06-01
+losartan,Medication,373567002,SNOMED,2024-06-01
+kandesartan,Medication,372512008,SNOMED,2024-06-01
+eprosartanmesilat,Medication,129488003,SNOMED,2024-06-01
+losartankalium,Medication,108582002,SNOMED,2024-06-01
+l�kemedel som endast inneh�ller sakubitril och valsartan,signs and symptoms,777480008,SNOMED,2024-06-01
+aldosteronantagonister,signs and symptoms,372603003,SNOMED,2024-06-01
+finerenon,Medication,1163346008,SNOMED,2024-06-01
+kaliumkanrenoat,Medication,419615001,SNOMED,2024-06-01
+eplerenon,Medication,407010008,SNOMED,2024-06-01
+spironolakton,Medication,387078006,SNOMED,2024-06-01
+kanrenon,Medication,96291007,SNOMED,2024-06-01
+diuretika,signs and symptoms,372695000,SNOMED,2024-06-01
+acetazolamid,Medication,372709008,SNOMED,2024-06-01
+aminometradin,Medication,80253002,SNOMED,2024-06-01
+amisometradin,Medication,39263003,SNOMED,2024-06-01
+klorazanil,Medication,88802007,SNOMED,2024-06-01
+cikletanin,Medication,735156005,SNOMED,2024-06-01
+cikletaninhydroklorid,Medication,735160008,SNOMED,2024-06-01
+konivaptan,Medication,421858002,SNOMED,2024-06-01
+flumetiazid,Medication,6513000,SNOMED,2024-06-01
+pamabrom,Medication,116552006,SNOMED,2024-06-01
+tolvaptan,Medication,443058000,SNOMED,2024-06-01
+kvicksilverdiuretika,Medication,373751005,SNOMED,2024-06-01
+mersalylnatrium,Medication,395784002,SNOMED,2024-06-01
+mersalyl,Medication,387157006,SNOMED,2024-06-01
+merkaptomerin,Medication,362947006,SNOMED,2024-06-01
+merallurid,Medication,85391002,SNOMED,2024-06-01
+klormerodrin,Medication,74589005,SNOMED,2024-06-01
+meretoxyllinprokain,Medication,49022000,SNOMED,2024-06-01
+merkumatilin,Medication,33667000,SNOMED,2024-06-01
+merkaptomerinnatrium,Medication,30333004,SNOMED,2024-06-01
+osmotiska diuretika,Medication,372792005,SNOMED,2024-06-01
+mannitol,Medication,387168006,SNOMED,2024-06-01
+urea,Medication,387092000,SNOMED,2024-06-01
+isosorbid,Medication,386853004,SNOMED,2024-06-01
+kaliumsparande diuretika,Medication,372753003,SNOMED,2024-06-01
+"amiloridhydroklorid, vattenfri",Medication,1268944002,SNOMED,2024-06-01
+amiloridhydrokloriddihydrat,Medication,412082007,SNOMED,2024-06-01
+amiloridhydroklorid,Medication,387516008,SNOMED,2024-06-01
+amilorid,Medication,387503008,SNOMED,2024-06-01
+triamteren,Medication,387053007,SNOMED,2024-06-01
+diuretikum inneh�llande purinderivat,Medication,419151007,SNOMED,2024-06-01
+kolinteofyllinat,Medication,387489007,SNOMED,2024-06-01
+teobromin,Medication,75371004,SNOMED,2024-06-01
+saluretikum,Medication,372660003,SNOMED,2024-06-01
+butizid,Medication,20551000122108,SNOMED,2024-06-01
+bumetanid,Medication,387498005,SNOMED,2024-06-01
+furosemid,Medication,387475002,SNOMED,2024-06-01
+klortalidon,Medication,387324004,SNOMED,2024-06-01
+etakrynsyra,Medication,373536004,SNOMED,2024-06-01
+klorotiazid,Medication,372782002,SNOMED,2024-06-01
+torsemid,Medication,108476002,SNOMED,2024-06-01
+natriumetakrynat,Medication,75341007,SNOMED,2024-06-01
+benstiazid,Medication,66290002,SNOMED,2024-06-01
+tikrynafen,Medication,64029000,SNOMED,2024-06-01
+kinetazon,Medication,41261002,SNOMED,2024-06-01
+cyklotiazid,Medication,37006008,SNOMED,2024-06-01
+triklormetiazid,Medication,11473005,SNOMED,2024-06-01
+klorotiazidnatrium,Medication,8252004,SNOMED,2024-06-01
+sulfonamiddiuretika,Medication,43585000,SNOMED,2024-06-01
+indapamidhemihydrat,Medication,725661001,SNOMED,2024-06-01
+mefrusid,Medication,406772008,SNOMED,2024-06-01
+klopamid,Medication,395940005,SNOMED,2024-06-01
+xipamid,Medication,395923001,SNOMED,2024-06-01
+indapamid,Medication,387419003,SNOMED,2024-06-01
+metolazon,Medication,387123003,SNOMED,2024-06-01
+etoxizolamid,Medication,63203003,SNOMED,2024-06-01
+metazolamid,Medication,53052005,SNOMED,2024-06-01
+tiaziddiuretika,Medication,372747003,SNOMED,2024-06-01
+altiazid,Medication,717101002,SNOMED,2024-06-01
+cyklopentiazid,Medication,396009008,SNOMED,2024-06-01
+hydroflumetiazid,Medication,395946004,SNOMED,2024-06-01
+hydroklortiazid,Medication,387525002,SNOMED,2024-06-01
+bendroflumetiazid,Medication,387520007,SNOMED,2024-06-01
+polytiazid,Medication,387492006,SNOMED,2024-06-01
+metyklotiazid,Medication,387373008,SNOMED,2024-06-01
+urinsyradrivande medel,Medication,372758007,SNOMED,2024-06-01
+lesinurad,Medication,715259003,SNOMED,2024-06-01
+bensbromaron,Medication,698025001,SNOMED,2024-06-01
+azapropazon,Medication,391798003,SNOMED,2024-06-01
+probenecid,Medication,387365004,SNOMED,2024-06-01
+sulfinpyrazon,Medication,387108008,SNOMED,2024-06-01
+loopdiuretikum,signs and symptoms,372691009,SNOMED,2024-06-01
+piretanid,Medication,419451002,SNOMED,2024-06-01
+kalciumkanalblockerare,signs and symptoms,373304005,SNOMED,2024-06-01
+,Medication,1332137007,SNOMED,2024-06-01
+,Medication,1303528009,SNOMED,2024-06-01
+,Medication,1303527004,SNOMED,2024-06-01
+terodilinhydroklorid,Medication,782604006,SNOMED,2024-06-01
+gabapentinenakarbil,Medication,703122000,SNOMED,2024-06-01
+pinaveriumbromid,Medication,698023008,SNOMED,2024-06-01
+perhexilin,Medication,421817009,SNOMED,2024-06-01
+mibefradil,Medication,421651006,SNOMED,2024-06-01
+terodilin,Medication,417479000,SNOMED,2024-06-01
+prenylamin,Medication,387288001,SNOMED,2024-06-01
+gabapentin,Medication,386845007,SNOMED,2024-06-01
+bensotiazepin,Medication,406767004,SNOMED,2024-06-01
+diltiazemmaleat,Medication,410870005,SNOMED,2024-06-01
+diltiazem,Medication,372793000,SNOMED,2024-06-01
+diltiazemhydroklorid,Medication,12218006,SNOMED,2024-06-01
+diarylaminopropylamin,Medication,406768009,SNOMED,2024-06-01
+bepridil,Medication,372503006,SNOMED,2024-06-01
+bepridilhydroklorid,Medication,108531000,SNOMED,2024-06-01
+fenylalkylamin,Medication,406766008,SNOMED,2024-06-01
+gallopamilhydroklorid,Medication,703434004,SNOMED,2024-06-01
+gallopamil,Medication,703433005,SNOMED,2024-06-01
+verapamil,Medication,372754009,SNOMED,2024-06-01
+norverapamil,Medication,96297006,SNOMED,2024-06-01
+verapamilhydroklorid,Medication,14340003,SNOMED,2024-06-01
+kalciumkanalblockerare inneh�llande piperazinderivat,Medication,418559008,SNOMED,2024-06-01
+lidoflazin,Medication,418865004,SNOMED,2024-06-01
+kalciumkanalblockerare inneh�llande dihydropyridinderivat,Medication,406769001,SNOMED,2024-06-01
+,Medication,1304158004,SNOMED,2024-06-01
+levamlodipinbesilat,Medication,1217324004,SNOMED,2024-06-01
+levamlodipin,Medication,1217308000,SNOMED,2024-06-01
+amlodipinmesilat,Medication,1193663008,SNOMED,2024-06-01
+cilnidipin,Medication,1177123004,SNOMED,2024-06-01
+amlodipinbensoat,Medication,789067004,SNOMED,2024-06-01
+manidipinhydroklorid,Medication,765323009,SNOMED,2024-06-01
+manidipin,Medication,765322004,SNOMED,2024-06-01
+nilvadipin,Medication,713436005,SNOMED,2024-06-01
+barnidipin,Medication,698052006,SNOMED,2024-06-01
+nitrendipin,Medication,444757009,SNOMED,2024-06-01
+klevidipin,Medication,439471002,SNOMED,2024-06-01
+amlodipinmaleat,Medication,421048000,SNOMED,2024-06-01
+lerkanidipin,Medication,395986007,SNOMED,2024-06-01
+lerkanidipinhydroklorid,Medication,395768003,SNOMED,2024-06-01
+lacidipin,Medication,395764001,SNOMED,2024-06-01
+nimodipin,Medication,387502003,SNOMED,2024-06-01
+nifedipin,Medication,387490003,SNOMED,2024-06-01
+amlodipin,Medication,386864001,SNOMED,2024-06-01
+felodipin,Medication,386863007,SNOMED,2024-06-01
+isradipin,Medication,386862002,SNOMED,2024-06-01
+nisoldipin,Medication,386861009,SNOMED,2024-06-01
+amlodipinbesilat,Medication,384976003,SNOMED,2024-06-01
+nikardipin,Medication,372502001,SNOMED,2024-06-01
+nikardipinhydroklorid,Medication,108527006,SNOMED,2024-06-01
+nitratbaserat k�rlvidgande medel,Medication,372700007,SNOMED,2024-06-01
+"1,2-dinitroglycerin",Medication,725531004,SNOMED,2024-06-01
+glyceryltrinitrat,Medication,387404004,SNOMED,2024-06-01
+isosorbiddinitrat,Medication,387332007,SNOMED,2024-06-01
+amylnitrit,Medication,387038004,SNOMED,2024-06-01
+isosorbidmononitrat,Medication,386854005,SNOMED,2024-06-01
+pentaerytritoltetranitrat,Medication,386836006,SNOMED,2024-06-01
+erytrityltetranitrat,Medication,62368002,SNOMED,2024-06-01
+amylnitrat,Medication,41153003,SNOMED,2024-06-01
+inositolhexanitrat,Medication,12970004,SNOMED,2024-06-01
+hämmare av renin-angiotensinsystemet,Medication,866173006,SNOMED,2024-06-01
+angiotensin 2-receptorantagonist,Medication,372913009,SNOMED,2024-06-01
+,Medication,1332434009,SNOMED,2024-06-01
+,Medication,1332433003,SNOMED,2024-06-01
+azilsartanmedoxomilkalium,Medication,895431005,SNOMED,2024-06-01
+irbesartanhydroklorid,Medication,734504000,SNOMED,2024-06-01
+azilsartanmedoxomil,Medication,449561004,SNOMED,2024-06-01
+azilsartan,Medication,449042005,SNOMED,2024-06-01
+olmesartanmedoxomil,Medication,412260006,SNOMED,2024-06-01
+olmesartan,Medication,412259001,SNOMED,2024-06-01
+eprosartan,Medication,396044005,SNOMED,2024-06-01
+telmisartan,Medication,387069000,SNOMED,2024-06-01
+kandesartancilexetil,Medication,386878000,SNOMED,2024-06-01
+irbesartan,Medication,386877005,SNOMED,2024-06-01
+valsartan,Medication,386876001,SNOMED,2024-06-01
+losartan,Medication,373567002,SNOMED,2024-06-01
+kandesartan,Medication,372512008,SNOMED,2024-06-01
+eprosartanmesilat,Medication,129488003,SNOMED,2024-06-01
+losartankalium,Medication,108582002,SNOMED,2024-06-01
+ACE-hämmare,Medication,372733002,SNOMED,2024-06-01
+lisinoprildihydrat,Medication,341000220102,SNOMED,2024-06-01
+"lisinopril, vattenfri",Medication,1269132005,SNOMED,2024-06-01
+"cilazapril, vattenfri",Medication,1268982005,SNOMED,2024-06-01
+perindopril-tert-butylaminmonohydrat,Medication,1119308007,SNOMED,2024-06-01
+enalaprilnatrium,Medication,1119307002,SNOMED,2024-06-01
+perindopriltosilat,Medication,735174001,SNOMED,2024-06-01
+cilazaprilmonohydrat,Medication,725786001,SNOMED,2024-06-01
+spirapril,Medication,713473008,SNOMED,2024-06-01
+zofenoprilatarginin,Medication,703343009,SNOMED,2024-06-01
+,Medication,703342004,SNOMED,2024-06-01
+spirapril,Medication,713473008,SNOMED,2024-06-01
+zofenoprilatarginin,Medication,703343009,SNOMED,2024-06-01
+zofenoprilat,Medication,703342004,SNOMED,2024-06-01
+zofenoprilkalcium,Medication,703341006,SNOMED,2024-06-01
+zofenopril,Medication,703340007,SNOMED,2024-06-01
+delaprilhydroklorid,Medication,700066002,SNOMED,2024-06-01
+delapril,Medication,698093003,SNOMED,2024-06-01
+perindoprilarginin,Medication,442509000,SNOMED,2024-06-01
+imidapril,Medication,395984005,SNOMED,2024-06-01
+cilazapril,Medication,395947008,SNOMED,2024-06-01
+imidaprilhydroklorid,Medication,395741003,SNOMED,2024-06-01
+enalaprilmaleat,Medication,387165009,SNOMED,2024-06-01
+kaptopril,Medication,387160004,SNOMED,2024-06-01
+kinaprilhydroklorid,Medication,386875002,SNOMED,2024-06-01
+kinapril,Medication,386874003,SNOMED,2024-06-01
+lisinopril,Medication,386873009,SNOMED,2024-06-01
+ramipril,Medication,386872004,SNOMED,2024-06-01
+trandolapril,Medication,386871006,SNOMED,2024-06-01
+moexipril,Medication,373442003,SNOMED,2024-06-01
+perindopril,Medication,372916001,SNOMED,2024-06-01
+enalapril,Medication,372658000,SNOMED,2024-06-01
+benazepril,Medication,372511001,SNOMED,2024-06-01
+fosinopril,Medication,372510000,SNOMED,2024-06-01
+perindopril-tert-butylamin,Medication,129485000,SNOMED,2024-06-01
+benazeprilhydroklorid,Medication,108573008,SNOMED,2024-06-01
+fosinoprilnatrium,Medication,108570006,SNOMED,2024-06-01
+moexiprilhydroklorid,Medication,108567007,SNOMED,2024-06-01
+enalaprilat,Medication,48052001,SNOMED,2024-06-01
+reninhämmare,Medication,426228001,SNOMED,2024-06-01
+aliskiren,Medication,426725002,SNOMED,2024-06-01
+aliskirenfumarat,Medication,425981005,SNOMED,2024-06-01
+ACE-hämmare,Medication,372733002,SNOMED,2024-06-01
+lisinoprildihydrat,Medication,341000220102,SNOMED,2024-06-01
+"lisinopril, vattenfri",Medication,1269132005,SNOMED,2024-06-01
+"cilazapril, vattenfri",Medication,1268982005,SNOMED,2024-06-01
+perindopril-tert-butylaminmonohydrat,Medication,1119308007,SNOMED,2024-06-01
+enalaprilnatrium,Medication,1119307002,SNOMED,2024-06-01
+perindopriltosilat,Medication,735174001,SNOMED,2024-06-01
+cilazaprilmonohydrat,Medication,725786001,SNOMED,2024-06-01
+angiotensin 2-receptorantagonist,Medication,372913009,SNOMED,2024-06-01
+,Medication,1332434009,SNOMED,2024-06-01
+,Medication,1332433003,SNOMED,2024-06-01
+azilsartanmedoxomilkalium,Medication,895431005,SNOMED,2024-06-01
+irbesartanhydroklorid,Medication,734504000,SNOMED,2024-06-01
+azilsartanmedoxomil,Medication,449561004,SNOMED,2024-06-01
+azilsartan,Medication,449042005,SNOMED,2024-06-01
+olmesartanmedoxomil,Medication,412260006,SNOMED,2024-06-01
+olmesartan,Medication,412259001,SNOMED,2024-06-01
+eprosartan,Medication,396044005,SNOMED,2024-06-01
+telmisartan,Medication,387069000,SNOMED,2024-06-01
+kandesartancilexetil,Medication,386878000,SNOMED,2024-06-01
+irbesartan,Medication,386877005,SNOMED,2024-06-01
+valsartan,Medication,386876001,SNOMED,2024-06-01
+losartan,Medication,373567002,SNOMED,2024-06-01
+kandesartan,Medication,372512008,SNOMED,2024-06-01
+eprosartanmesilat,Medication,129488003,SNOMED,2024-06-01
+losartankalium,Medication,108582002,SNOMED,2024-06-01
+läkemedel som endast innehåller sakubitril och valsartan,Medication,777480008,SNOMED,2024-06-01
+aldosteronantagonister,Medication,372603003,SNOMED,2024-06-01
+finerenon,Medication,1163346008,SNOMED,2024-06-01
+kaliumkanrenoat,Medication,419615001,SNOMED,2024-06-01
+eplerenon,Medication,407010008,SNOMED,2024-06-01
+spironolakton,Medication,387078006,SNOMED,2024-06-01
+kanrenon,Medication,96291007,SNOMED,2024-06-01
+diuretika,Medication,372695000,SNOMED,2024-06-01
+acetazolamid,Medication,372709008,SNOMED,2024-06-01
+aminometradin,Medication,80253002,SNOMED,2024-06-01
+amisometradin,Medication,39263003,SNOMED,2024-06-01
+klorazanil,Medication,88802007,SNOMED,2024-06-01
+cikletanin,Medication,735156005,SNOMED,2024-06-01
+cikletaninhydroklorid,Medication,735160008,SNOMED,2024-06-01
+konivaptan,Medication,421858002,SNOMED,2024-06-01
+flumetiazid,Medication,6513000,SNOMED,2024-06-01
+pamabrom,Medication,116552006,SNOMED,2024-06-01
+tolvaptan,Medication,443058000,SNOMED,2024-06-01
+kvicksilverdiuretika,Medication,373751005,SNOMED,2024-06-01
+mersalylnatrium,Medication,395784002,SNOMED,2024-06-01
+mersalyl,Medication,387157006,SNOMED,2024-06-01
+merkaptomerin,Medication,362947006,SNOMED,2024-06-01
+merallurid,Medication,85391002,SNOMED,2024-06-01
+klormerodrin,Medication,74589005,SNOMED,2024-06-01
+meretoxyllinprokain,Medication,49022000,SNOMED,2024-06-01
+merkumatilin,Medication,33667000,SNOMED,2024-06-01
+merkaptomerinnatrium,Medication,30333004,SNOMED,2024-06-01
+osmotiska diuretika,Medication,372792005,SNOMED,2024-06-01
+mannitol,Medication,387168006,SNOMED,2024-06-01
+urea,Medication,387092000,SNOMED,2024-06-01
+isosorbid,Medication,386853004,SNOMED,2024-06-01
+kaliumsparande diuretika,Medication,372753003,SNOMED,2024-06-01
+"amiloridhydroklorid, vattenfri",Medication,1268944002,SNOMED,2024-06-01
+amiloridhydrokloriddihydrat,Medication,412082007,SNOMED,2024-06-01
+amiloridhydroklorid,Medication,387516008,SNOMED,2024-06-01
+amilorid,Medication,387503008,SNOMED,2024-06-01
+triamteren,Medication,387053007,SNOMED,2024-06-01
+diuretikum innehållande purinderivat,Medication,419151007,SNOMED,2024-06-01
+kolinteofyllinat,Medication,387489007,SNOMED,2024-06-01
+teobromin,Medication,75371004,SNOMED,2024-06-01
+saluretikum,Medication,372660003,SNOMED,2024-06-01
+butizid,Medication,20551000122108,SNOMED,2024-06-01
+bumetanid,Medication,387498005,SNOMED,2024-06-01
+furosemid,Medication,387475002,SNOMED,2024-06-01
+klortalidon,Medication,387324004,SNOMED,2024-06-01
+etakrynsyra,Medication,373536004,SNOMED,2024-06-01
+klorotiazid,Medication,372782002,SNOMED,2024-06-01
+torsemid,Medication,108476002,SNOMED,2024-06-01
+natriumetakrynat,Medication,75341007,SNOMED,2024-06-01
+benstiazid,Medication,66290002,SNOMED,2024-06-01
+tikrynafen,Medication,64029000,SNOMED,2024-06-01
+kinetazon,Medication,41261002,SNOMED,2024-06-01
+cyklotiazid,Medication,37006008,SNOMED,2024-06-01
+triklormetiazid,Medication,11473005,SNOMED,2024-06-01
+klorotiazidnatrium,Medication,8252004,SNOMED,2024-06-01
+sulfonamiddiuretika,Medication,43585000,SNOMED,2024-06-01
+indapamidhemihydrat,Medication,725661001,SNOMED,2024-06-01
+mefrusid,Medication,406772008,SNOMED,2024-06-01
+klopamid,Medication,395940005,SNOMED,2024-06-01
+xipamid,Medication,395923001,SNOMED,2024-06-01
+indapamid,Medication,387419003,SNOMED,2024-06-01
+metolazon,Medication,387123003,SNOMED,2024-06-01
+etoxizolamid,Medication,63203003,SNOMED,2024-06-01
+metazolamid,Medication,53052005,SNOMED,2024-06-01
+tiaziddiuretika,Medication,372747003,SNOMED,2024-06-01
+altiazid,Medication,717101002,SNOMED,2024-06-01
+cyklopentiazid,Medication,396009008,SNOMED,2024-06-01
+hydroflumetiazid,Medication,395946004,SNOMED,2024-06-01
+hydroklortiazid,Medication,387525002,SNOMED,2024-06-01
+bendroflumetiazid,Medication,387520007,SNOMED,2024-06-01
+polytiazid,Medication,387492006,SNOMED,2024-06-01
+metyklotiazid,Medication,387373008,SNOMED,2024-06-01
+urinsyradrivande medel,Medication,372758007,SNOMED,2024-06-01
+lesinurad,Medication,715259003,SNOMED,2024-06-01
+bensbromaron,Medication,698025001,SNOMED,2024-06-01
+azapropazon,Medication,391798003,SNOMED,2024-06-01
+probenecid,Medication,387365004,SNOMED,2024-06-01
+sulfinpyrazon,Medication,387108008,SNOMED,2024-06-01
+loopdiuretikum,Medication,372691009,SNOMED,2024-06-01
+piretanid,Medication,419451002,SNOMED,2024-06-01
+kalciumkanalblockerare,Medication,373304005,SNOMED,2024-06-01
+,Medication,1332137007,SNOMED,2024-06-01
+,Medication,1303528009,SNOMED,2024-06-01
+,Medication,1303527004,SNOMED,2024-06-01
+terodilinhydroklorid,Medication,782604006,SNOMED,2024-06-01
+gabapentinenakarbil,Medication,703122000,SNOMED,2024-06-01
+pinaveriumbromid,Medication,698023008,SNOMED,2024-06-01
+perhexilin,Medication,421817009,SNOMED,2024-06-01
+mibefradil,Medication,421651006,SNOMED,2024-06-01
+terodilin,Medication,417479000,SNOMED,2024-06-01
+prenylamin,Medication,387288001,SNOMED,2024-06-01
+gabapentin,Medication,386845007,SNOMED,2024-06-01
+bensotiazepin,Medication,406767004,SNOMED,2024-06-01
+diltiazemmaleat,Medication,410870005,SNOMED,2024-06-01
+diltiazem,Medication,372793000,SNOMED,2024-06-01
+diltiazemhydroklorid,Medication,12218006,SNOMED,2024-06-01
+diarylaminopropylamin,Medication,406768009,SNOMED,2024-06-01
+bepridil,Medication,372503006,SNOMED,2024-06-01
+bepridilhydroklorid,Medication,108531000,SNOMED,2024-06-01
+fenylalkylamin,Medication,406766008,SNOMED,2024-06-01
+gallopamilhydroklorid,Medication,703434004,SNOMED,2024-06-01
+gallopamil,Medication,703433005,SNOMED,2024-06-01
+verapamil,Medication,372754009,SNOMED,2024-06-01
+norverapamil,Medication,96297006,SNOMED,2024-06-01
+verapamilhydroklorid,Medication,14340003,SNOMED,2024-06-01
+kalciumkanalblockerare innehållande piperazinderivat,Medication,418559008,SNOMED,2024-06-01
+lidoflazin,Medication,418865004,SNOMED,2024-06-01
+kalciumkanalblockerare innehållande dihydropyridinderivat,Medication,406769001,SNOMED,2024-06-01
+,Medication,1304158004,SNOMED,2024-06-01
+levamlodipinbesilat,Medication,1217324004,SNOMED,2024-06-01
+levamlodipin,Medication,1217308000,SNOMED,2024-06-01
+amlodipinmesilat,Medication,1193663008,SNOMED,2024-06-01
+cilnidipin,Medication,1177123004,SNOMED,2024-06-01
+amlodipinbensoat,Medication,789067004,SNOMED,2024-06-01
+manidipinhydroklorid,Medication,765323009,SNOMED,2024-06-01
+manidipin,Medication,765322004,SNOMED,2024-06-01
+nilvadipin,Medication,713436005,SNOMED,2024-06-01
+barnidipin,Medication,698052006,SNOMED,2024-06-01
+nitrendipin,Medication,444757009,SNOMED,2024-06-01
+klevidipin,Medication,439471002,SNOMED,2024-06-01
+amlodipinmaleat,Medication,421048000,SNOMED,2024-06-01
+lerkanidipin,Medication,395986007,SNOMED,2024-06-01
+lerkanidipinhydroklorid,Medication,395768003,SNOMED,2024-06-01
+lacidipin,Medication,395764001,SNOMED,2024-06-01
+nimodipin,Medication,387502003,SNOMED,2024-06-01
+nifedipin,Medication,387490003,SNOMED,2024-06-01
+amlodipin,Medication,386864001,SNOMED,2024-06-01
+felodipin,Medication,386863007,SNOMED,2024-06-01
+isradipin,Medication,386862002,SNOMED,2024-06-01
+nisoldipin,Medication,386861009,SNOMED,2024-06-01
+amlodipinbesilat,Medication,384976003,SNOMED,2024-06-01
+nikardipin,Medication,372502001,SNOMED,2024-06-01
+nikardipinhydroklorid,Medication,108527006,SNOMED,2024-06-01
+nitratbaserat kärlvidgande medel,Medication,372700007,SNOMED,2024-06-01
+"1,2-dinitroglycerin",Medication,725531004,SNOMED,2024-06-01
+glyceryltrinitrat,Medication,387404004,SNOMED,2024-06-01
+isosorbiddinitrat,Medication,387332007,SNOMED,2024-06-01
+amylnitrit,Medication,387038004,SNOMED,2024-06-01
+isosorbidmononitrat,Medication,386854005,SNOMED,2024-06-01
+pentaerytritoltetranitrat,Medication,386836006,SNOMED,2024-06-01
+erytrityltetranitrat,Medication,62368002,SNOMED,2024-06-01
+amylnitrat,Medication,41153003,SNOMED,2024-06-01
+inositolhexanitrat,Medication,12970004,SNOMED,2024-06-01
