@@ -3,7 +3,7 @@ import os
 
 swedish_entities = []
 
-language = "swedish"
+language = os.getenv("DICTIONARY_FILE", "english")
 
 language_source_files_path = "./lang/"
 

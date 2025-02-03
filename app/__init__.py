@@ -2,11 +2,16 @@ from flask import Flask, request, jsonify
 from flasgger import Swagger
 from app.models.dictionary_baseline import DictionaryLookupModel
 
+import os
+
 app = Flask(__name__)
 swagger = Swagger(app)
 
+
+language = os.getenv("DICTIONARY_FILE", "english")
+
 # Initialize the model
-model = DictionaryLookupModel("./english_entities.csv")
+model = DictionaryLookupModel("./" + str(language) + "_entities.csv")
 
 @app.route('/process_text', methods=['POST'])
 def process_text():
