@@ -1,14 +1,25 @@
 import csv
+import os
 from app.models.model_annotation import ModelAnnotation
 
 class DictionaryLookupModel(ModelAnnotation):
     def __init__(self, csv_path):
-        import csv
         import spacy
         from spacy.tokens import Doc, Span
         from spacy.language import Language
 
-        self.nlp = spacy.load("en_core_web_sm")
+        self.spacy_models = {
+            "SV": "sv_core_news_sm",
+            "EN": "en_core_web_sm",
+            "RO": "ro_core_news_sm",
+            "NL": "nl_core_news_sm",
+            "SP": "es_core_news_sm",
+            "IT": "it_core_news_sm",
+            "CS": "xx_ent_wiki_sm"
+        }
+
+        self.nlp = \
+            spacy.load(self.spacy_models[os.getenv("LANGUAGE", "EN").upper()])
         self.entities = self.load_entities_from_csv(csv_path)
 
         @Language.component("dictionary_entity_recognizer")
@@ -19,7 +30,10 @@ class DictionaryLookupModel(ModelAnnotation):
                     start = token.i
                     end = token.i + 1
                     entity_info = self.entities[token.lower_]
-                    matches.append(Span(doc, start, end, label=entity_info["label"]))
+                    matches.append(Span(doc,
+                                        start,
+                                        end,
+                                        label=entity_info["label"]))
 
             new_ents = []
             for span in matches:
