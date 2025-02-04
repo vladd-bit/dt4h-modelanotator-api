@@ -241,8 +241,6 @@ pentaerytritoltetranitrat,Medication,DT4H-MedV116,DT4H,2024-06-01
 erytrityltetranitrat,Medication,DT4H-MedV117,DT4H,2024-06-01
 amylnitrat,Medication,DT4H-MedV118,DT4H,2024-06-01
 inositolhexanitrat,Medication,DT4H-MedV119,DT4H,2024-06-01
-,,,,
-,,,,
 hämmare av renin-angiotensinsysteMedt,Medication,DT4H-MedR1,DT4H,2024-06-01
 ACE-hämmare,Medication,DT4H-MedR13,DT4H,2024-06-01
 angiotensin 2-receptorantagonist,Medication,DT4H-MedR11,DT4H,2024-06-01
@@ -706,8 +704,6 @@ Lerkanidipinhydroklorid hemihydrat,Medication,DT4H-MedC161,DT4H,2024-06-01
 Perhexilinmaleat,Medication,DT4H-MedC101,DT4H,2024-06-01
 Fimasartan,Medication,DT4H-MedR112,DT4H,2024-06-01
 Fimasartan kaliumtrihydrat,Medication,DT4H-MedR111,DT4H,2024-06-01
-,,,DT4H,2024-06-01
-,,,,
 FluMedtiazid,Medication,DT4H-Med119,DT4H,2024-06-01
 Klortiazidnatrium,Medication,DT4H-Med195,DT4H,2024-06-01
 TriklorMedtiazid,Medication,DT4H-Med194,DT4H,2024-06-01
@@ -971,8 +967,6 @@ reumatism,Non-CV comorbidities,DT4H-Dis12,DT4H,2024-06-01
 dagligrökare,Non-CV comorbidities,DT4H-SM3,DT4H,2024-06-01
 koronar bypassoperation,CV diseases,DT4H-CV12,DT4H,2024-06-01
 koronar bypassoperation,CV diseases,DT4H-CV12,DT4H,2024-06-01
-,,,,2024-06-01
-,,,,2024-06-01
 man som biologiskt kön,demographic,DT4HDem-4,DT4H,2024-06-01
 man,demographic,DT4HDem-4,DT4H,2024-06-01
 kroppsmasseindex,demographic,DT4HDem-9,DT4H,2024-06-01
@@ -1014,8 +1008,6 @@ reumatism,Non-CV comorbidities,DT4H-Dis12,DT4H,2024-06-01
 röker tobak dagligen,Non-CV comorbidities,DT4H-SM3,DT4H,2024-06-01
 CABG,CV diseases,DT4H-CV12,DT4H,2024-06-01
 CABG (coronary artery bypass graft),CV diseases,DT4H-CV12,DT4H,2024-06-01
-,,,,2024-06-01
-,,,,2024-06-01
 Valvulär hjärtsjukdom,CV diseases,DT4H-CV11,DT4H,2024-06-01
 Hjärtklaffssjukdom,CV diseases,DT4H-CV11,DT4H,2024-06-01
 Valvulär hjärtsjukdom,CV diseases,DT4H-CV11,DT4H,2024-06-01
@@ -1392,8 +1384,6 @@ TIA - övergående ischemisk attack,CV diseases,DT4H-CV10,DT4H,2024-06-01
 MBP - Medelblodtryck,Medication,DT4HMedas-3,DT4H,2024-06-01
 Transplantation hjärta,CV Procedures,DT4H-Proc4,DT4H,2024-06-01
 Viktökning,signs and symptoms,DT4HSign-18,DT4H,2024-06-01
-,,,,2024-06-01
-,,,,2024-06-01
 Valvulär hjärtsjukdom,CV diseases,DT4H-CV11,DT4H,2024-06-01
 Hjärtklaffssjukdom,CV diseases,DT4H-CV11,DT4H,2024-06-01
 Valvulär hjärtsjukdom,CV diseases,DT4H-CV11,DT4H,2024-06-01
