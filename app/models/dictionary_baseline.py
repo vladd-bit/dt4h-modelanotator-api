@@ -50,7 +50,7 @@ class DictionaryLookupModel(ModelAnnotation):
                     }
         return entities
 
-    def predict(self, text, app):
+    def predict(self, text, app, id: str = ""):
         doc = self.nlp(text)
         annotations = []
 
@@ -83,4 +83,4 @@ class DictionaryLookupModel(ModelAnnotation):
             else:
                 print(f"Entity '{entity_text}' not found in dictionary.")
 
-        return self.serialize(text, annotations)
+        return self.serialize(text, annotations, id=id)

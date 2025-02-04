@@ -4,10 +4,10 @@ import json
 
 class ModelAnnotation(ABC):
     @abstractmethod
-    def predict(self, text, app):
+    def predict(self, text, app, id):
         pass
 
-    def serialize(self, text, annotations):
+    def serialize(self, text, annotations, id):
         """This function implements the Common Data Model v2"""
         output = {
             "nlp_output": {
@@ -28,6 +28,7 @@ class ModelAnnotation(ABC):
                     "deidentification_pipeline_name": "",
                     "deidentification_pipeline_version": "",
                     "text": text,
+                    "id": str(id),
                     "nlp_processing_date": datetime.now().isoformat(),
                     "nlp_processing_pipeline_name": self.__class__.__name__,
                     "nlp_processing_pipeline_version": "1.0",

@@ -3,6 +3,7 @@ from flasgger import Swagger
 from app.models.dictionary_baseline import DictionaryLookupModel
 
 import os
+import logging
 
 app = Flask(__name__)
 swagger = Swagger(app)
@@ -45,10 +46,12 @@ def process_text():
 
     text = data.get('text')
 
+    id = data.get('id')
+
     if not text:
         return jsonify({"error": "'text' is required"}), 400
 
-    result = model.predict(text, app)
+    result = model.predict(text=text, app=app, id=id)
     return jsonify(result)
 
 @app.route('/process_bulk', methods=['POST'])
@@ -92,10 +95,12 @@ def process_bulk():
     for item in data:
         text = item.get('text')
 
+        id = item.get('id')
+
         if not text:
             return jsonify({"error": "Each item must contain 'text'"}), 400
 
-        result = model.predict(text, app)
+        result = model.predict(text, app, id=id)
         results.append(result)
 
     return jsonify(results)
