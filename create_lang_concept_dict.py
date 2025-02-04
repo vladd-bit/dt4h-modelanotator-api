@@ -19,7 +19,7 @@ with open(os.path.join(language_source_files_path, f"{language}_medication.csv")
     for row in reader:
         entities.append([row[1], "Medication", row[0], "DT4H", "2024-06-01"])
 
-with open("./{language}_entities.csv", "r") as file:
+with open(f"./{language}_entities.csv", "r") as file:
     reader = csv.reader(file)
     for row in reader: 
         for idx in range(len(entities)):
