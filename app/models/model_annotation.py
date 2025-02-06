@@ -7,7 +7,7 @@ class ModelAnnotation(ABC):
     def predict(self, text, app, id):
         pass
 
-    def serialize(self, text, annotations, id):
+    def serialize(self, text, annotations, id, language="en"):
         """This function implements the Common Data Model v2"""
         output = {
             "nlp_output": {
@@ -23,7 +23,7 @@ class ModelAnnotation(ABC):
                     "record_character_encoding": "UTF-8",
                     "record_extraction_date": datetime.now().isoformat(),
                     "report_section": "",
-                    "report_language": "en",
+                    "report_language": language,
                     "deidentified": "no",
                     "deidentification_pipeline_name": "",
                     "deidentification_pipeline_version": "",
@@ -37,7 +37,7 @@ class ModelAnnotation(ABC):
             },
             "nlp_service_info": {
                 "service_app_name": "DT4H NLP Processor",
-                "service_language": "en",
+                "service_language": language,
                 "service_version": "1.0",
                 "service_model": self.__class__.__name__
             }

@@ -9,6 +9,8 @@ app = Flask(__name__)
 swagger = Swagger(app)
 
 
+model_language = str(os.getenv("LANGUAGE", "EN")).lower()
+
 language = os.getenv("DICTIONARY_FILE", "english")
 
 # Initialize the model
@@ -51,7 +53,7 @@ def process_text():
     if not text:
         return jsonify({"error": "'text' is required"}), 400
 
-    result = model.predict(text=text, app=app, id=id)
+    result = model.predict(text=text, app=app, id=id, language=model_language)
     return jsonify(result)
 
 @app.route('/process_bulk', methods=['POST'])
@@ -100,7 +102,7 @@ def process_bulk():
         if not text:
             return jsonify({"error": "Each item must contain 'text'"}), 400
 
-        result = model.predict(text, app, id=id)
+        result = model.predict(text, app, id=id, language=model_language)
         results.append(result)
 
     return jsonify(results)
